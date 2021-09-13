@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/Automaton.h
+Token.h
+/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/Token.h
+
+/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/StringAutomaton.cpp
+StringAutomaton.h
+/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/StringAutomaton.h
+
+/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/StringAutomaton.h
+Automaton.h
+/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/Automaton.h
+
+/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/Token.h
+string
+-
+

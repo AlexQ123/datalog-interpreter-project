@@ -5,8 +5,12 @@
       <paths name="alexq (79ec85a8-1f28-46ab-9cb3-287fa76498ba)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/CS236/project-1" local="$PROJECT_DIR$" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-alexq" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-alexq" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

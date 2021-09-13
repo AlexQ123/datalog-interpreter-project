@@ -26,6 +26,9 @@ void BlockCommentAutomaton::S2(const std::string& input) {
         Serr();
     }
     else {
+        if (input[index] == '\n') {
+            newLines++;
+        }
         inputRead++;
         index++;
         S2(input);

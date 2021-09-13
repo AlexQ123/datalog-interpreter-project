@@ -4,6 +4,7 @@
 #include "StringAutomaton.h"
 #include "LineComment.h"
 #include "BlockComment.h"
+#include "UndefinedAutomaton.h"
 #include <cctype>
 #include <iostream>
 
@@ -31,8 +32,10 @@ void Lexer::CreateAutomata() {
     automata.push_back(new MatcherAutomaton("Queries", TokenType::QUERIES));
     automata.push_back(new IDAutomaton());
     automata.push_back(new StringAutomaton());
-    automata.push_back(new LineCommentAutomaton());
     automata.push_back(new BlockCommentAutomaton());
+    automata.push_back(new UndefinedAutomaton());
+    automata.push_back(new LineCommentAutomaton());
+
 }
 
 void Lexer::Run(std::string& input) {
@@ -75,13 +78,13 @@ void Lexer::Run(std::string& input) {
             lineNumber += maxAutomaton->NewLinesRead();
             tokens.push_back(newToken);
         }
-        else {
-            maxRead = 1;
-            std::string undefinedDescription = "";
-            undefinedDescription.push_back(input[0]);
-            Token* newToken = new Token(TokenType::UNDEFINED, undefinedDescription, lineNumber);
-            tokens.push_back(newToken);
-        }
+//        else {
+//            maxRead = 1;
+//            std::string undefinedDescription = "";
+//            undefinedDescription.push_back(input[0]);
+//            Token* newToken = new Token(TokenType::UNDEFINED, undefinedDescription, lineNumber);
+//            tokens.push_back(newToken);
+//        }
 
         // Update `input` by removing characters read to create Token
         input.erase(0, maxRead);

@@ -11,4 +11,4 @@ add_executable(project_1
         Project1_Starter_Code/Lexer.h
         Project1_Starter_Code/main.cpp
         Project1_Starter_Code/Token.cpp
-        Project1_Starter_Code/Token.h Project1_Starter_Code/MatcherAutomaton.h Project1_Starter_Code/MatcherAutomaton.cpp Project1_Starter_Code/IDAutomaton.cpp Project1_Starter_Code/IDAutomaton.h Project1_Starter_Code/StringAutomaton.cpp Project1_Starter_Code/StringAutomaton.h Project1_Starter_Code/BlockComment.cpp Project1_Starter_Code/BlockComment.h Project1_Starter_Code/LineComment.cpp Project1_Starter_Code/LineComment.h Project1_Starter_Code/UndefinedAutomaton.cpp Project1_Starter_Code/UndefinedAutomaton.h)
+        Project1_Starter_Code/Token.h Project1_Starter_Code/MatcherAutomaton.h Project1_Starter_Code/MatcherAutomaton.cpp Project1_Starter_Code/IDAutomaton.cpp Project1_Starter_Code/IDAutomaton.h Project1_Starter_Code/StringAutomaton.cpp Project1_Starter_Code/StringAutomaton.h Project1_Starter_Code/BlockComment.cpp Project1_Starter_Code/BlockComment.h Project1_Starter_Code/LineComment.cpp Project1_Starter_Code/LineComment.h )

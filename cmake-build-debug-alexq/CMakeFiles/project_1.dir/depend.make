@@ -39,6 +39,7 @@ CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o: ../Project
 CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o: ../Project1_Starter_Code/Token.cpp
 CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o: ../Project1_Starter_Code/Token.h
 
+
 CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o: ../Project1_Starter_Code/Automaton.h
 CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o: ../Project1_Starter_Code/Lexer.h
 CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o: ../Project1_Starter_Code/Token.h

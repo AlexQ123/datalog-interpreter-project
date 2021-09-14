@@ -1,13 +1,14 @@
 #ifndef AUTOMATON_H
 #define AUTOMATON_H
 #include "Token.h"
+#include <iostream>
 
 class Automaton
 {
 protected:
     int inputRead = 0;
     int newLines = 0;
-    int index = 0;
+    unsigned int index = 0;
     TokenType type;
 
 public:

@@ -12,6 +12,9 @@ void LineCommentAutomaton::S1(const std::string& input) {
     if (index == input.size()) {
         S2(input);
     }
+    else if (input[1] == '|') {
+        Serr();
+    }
     else if (input[index] == '\n' || input[index] == '\r') {
         S2(input);
     }

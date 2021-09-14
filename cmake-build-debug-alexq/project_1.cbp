@@ -129,12 +129,6 @@
 		<Unit filename="/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/Token.h">
 			<Option target="project_1"/>
 		</Unit>
-		<Unit filename="/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/UndefinedAutomaton.cpp">
-			<Option target="project_1"/>
-		</Unit>
-		<Unit filename="/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/UndefinedAutomaton.h">
-			<Option target="project_1"/>
-		</Unit>
 		<Unit filename="/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/main.cpp">
 			<Option target="project_1"/>
 		</Unit>

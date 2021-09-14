@@ -6,7 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o"
-  "CMakeFiles/project_1.dir/Project1_Starter_Code/UndefinedAutomaton.cpp.o"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o"
   "project_1"
   "project_1.pdb"

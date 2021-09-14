@@ -312,33 +312,6 @@ Project1_Starter_Code/Token.cpp.s:
 	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.s
 .PHONY : Project1_Starter_Code/Token.cpp.s
 
-Project1_Starter_Code/UndefinedAutomaton.o: Project1_Starter_Code/UndefinedAutomaton.cpp.o
-
-.PHONY : Project1_Starter_Code/UndefinedAutomaton.o
-
-# target to build an object file
-Project1_Starter_Code/UndefinedAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/UndefinedAutomaton.cpp.o
-.PHONY : Project1_Starter_Code/UndefinedAutomaton.cpp.o
-
-Project1_Starter_Code/UndefinedAutomaton.i: Project1_Starter_Code/UndefinedAutomaton.cpp.i
-
-.PHONY : Project1_Starter_Code/UndefinedAutomaton.i
-
-# target to preprocess a source file
-Project1_Starter_Code/UndefinedAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/UndefinedAutomaton.cpp.i
-.PHONY : Project1_Starter_Code/UndefinedAutomaton.cpp.i
-
-Project1_Starter_Code/UndefinedAutomaton.s: Project1_Starter_Code/UndefinedAutomaton.cpp.s
-
-.PHONY : Project1_Starter_Code/UndefinedAutomaton.s
-
-# target to generate assembly for a file
-Project1_Starter_Code/UndefinedAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/UndefinedAutomaton.cpp.s
-.PHONY : Project1_Starter_Code/UndefinedAutomaton.cpp.s
-
 Project1_Starter_Code/main.o: Project1_Starter_Code/main.cpp.o
 
 .PHONY : Project1_Starter_Code/main.o
@@ -396,9 +369,6 @@ help:
 	@echo "... Project1_Starter_Code/Token.o"
 	@echo "... Project1_Starter_Code/Token.i"
 	@echo "... Project1_Starter_Code/Token.s"
-	@echo "... Project1_Starter_Code/UndefinedAutomaton.o"
-	@echo "... Project1_Starter_Code/UndefinedAutomaton.i"
-	@echo "... Project1_Starter_Code/UndefinedAutomaton.s"
 	@echo "... Project1_Starter_Code/main.o"
 	@echo "... Project1_Starter_Code/main.i"
 	@echo "... Project1_Starter_Code/main.s"

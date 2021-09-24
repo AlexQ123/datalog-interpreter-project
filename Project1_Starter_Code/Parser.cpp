@@ -233,6 +233,7 @@ void Parser::ParseRule(std::vector<Token *> &tokens) {
         ParsePredicateList(tokens, isFromQuery);
         //set bodyPredicates for rule
         rule->setPredicates(rulesPredicates);
+        rulesPredicates.clear();
         rules.push_back(rule);
         ParsePERIOD(tokens);
     }

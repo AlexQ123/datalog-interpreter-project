@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Automaton.h
-Token.h
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h
-iostream
--
-
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.h
 Predicate.h
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.h
@@ -20,17 +14,13 @@ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Rules.h
 set
 -
 
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.h
-vector
--
-Automaton.h
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Automaton.h
-Token.h
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h
-
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter.h
 Token.h
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h
+
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.cpp
+Parser.h
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.h
 
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.h
 Token.h
@@ -61,18 +51,6 @@ vector
 -
 
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h
-string
--
-
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp
-Lexer.h
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.h
-Parser.h
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.h
-iostream
--
-fstream
--
 string
 -
 

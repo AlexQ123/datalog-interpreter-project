@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/BlockComment.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o"
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/IDAutomaton.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o"
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/Lexer.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o"
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/LineComment.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o"
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/MatcherAutomaton.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o"
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/StringAutomaton.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o"
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/Token.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o"
-  "/users/guest/a/alexqian/CS236/project-1/Project1_Starter_Code/main.cpp" "/users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/LineComment.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/MatcherAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/StringAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

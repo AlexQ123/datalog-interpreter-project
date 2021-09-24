@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /users/guest/a/alexqian/CS236/project-1
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /users/guest/a/alexqian/CS236/datalog-interpreter-project
 -- Configuring done
 -- Generating done
--- Build files have been written to: /users/guest/a/alexqian/CS236/project-1/cmake-build-debug-alexq
+-- Build files have been written to: /users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq

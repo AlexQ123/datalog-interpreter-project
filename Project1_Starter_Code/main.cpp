@@ -1,11 +1,13 @@
 #include "Lexer.h"
+#include "Parser.h"
 #include <iostream>
 #include <fstream>
 #include <string>
 
 int main(int argc, char** argv) {
-
+    //Make lexer and parser
     Lexer* lexer = new Lexer();
+    Parser* parser = new Parser();
 
     if (argc < 2) {
         std::cout << "No file name was given." << std::endl;
@@ -30,22 +32,37 @@ int main(int argc, char** argv) {
 
     input.pop_back();
 
-//    //TESTING reading in the input file
-//    std::cout << input;
-//
-//    //TESTING the toString() function
-//    Token testToken(TokenType::COLON_DASH, ":-", 6);
-//    std::cout << testToken.toString();
 
-    //TESTING run and automata
+    //Run the lexer and store tokens in vector tokens
     lexer->Run(input);
     std::vector<Token*> tokens = lexer->getTokens();
 
+    //Get rid of tokens with TokenType COMMENT
     for (size_t i = 0; i < tokens.size(); i++) {
-        std::cout << tokens.at(i)->toString() << std::endl;
+        if (tokens.at(i)->getType() == TokenType::COMMENT) {
+            tokens.erase(tokens.begin() + i);
+        }
     }
 
-    std::cout << "Total Tokens = " << tokens.size();
+    //Run the parser
+    try {
+        parser->Parse(tokens);
+    }
+    catch (Token* token) {
+        std::cout << "Failure!\n  ";
+        std::cout << token->toString();
+        return 1;
+    }
+    // if successful
+    std::cout << "Success!" << std::endl;
+    parser->printDatalogProgram();
+
+    //Printing out the tokens for project 1
+//    for (size_t i = 0; i < tokens.size(); i++) {
+//        std::cout << tokens.at(i)->toString() << std::endl;
+//    }
+//
+//    std::cout << "Total Tokens = " << tokens.size();
 
     delete lexer;
 

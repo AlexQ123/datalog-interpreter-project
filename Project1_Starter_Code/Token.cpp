@@ -6,6 +6,14 @@ Token::Token(TokenType type, std::string description, int line) {
     this->line = line;
 }
 
+TokenType Token::getType() {
+    return type;
+}
+
+std::string Token::getDescription() {
+    return description;
+}
+
 std::string Token::toString() {
     std::string typeString = typeToString(type);
     std::string lineString = std::to_string(line);

@@ -4,11 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/alexq/CS236/project-1/Project1_Starter_Code/ColonAutomaton.cpp" "C:/Users/alexq/CS236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/ColonAutomaton.cpp.obj"
-  "C:/Users/alexq/CS236/project-1/Project1_Starter_Code/ColonDashAutomaton.cpp" "C:/Users/alexq/CS236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/ColonDashAutomaton.cpp.obj"
-  "C:/Users/alexq/CS236/project-1/Project1_Starter_Code/Lexer.cpp" "C:/Users/alexq/CS236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.obj"
-  "C:/Users/alexq/CS236/project-1/Project1_Starter_Code/Token.cpp" "C:/Users/alexq/CS236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.obj"
-  "C:/Users/alexq/CS236/project-1/Project1_Starter_Code/main.cpp" "C:/Users/alexq/CS236/project-1/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/LineComment.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/MatcherAutomaton.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/StringAutomaton.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.obj"
+  "C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp" "C:/Users/alexq/CS236/datalog-interpreter-project/cmake-build-debug/CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

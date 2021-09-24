@@ -40,7 +40,7 @@ std::string DatalogProgram::toString() {
     for (size_t i = 0; i < facts.size(); i++) {
         output.append("  ");
         output.append(facts.at(i)->toString());
-        output.append("\n");
+        output.append(".\n");
     }
 
     output.append("Rules(");
@@ -49,7 +49,7 @@ std::string DatalogProgram::toString() {
     for (size_t i = 0; i < rules.size(); i++) {
         output.append("  ");
         output.append(rules.at(i)->toString());
-        output.append("\n");
+        output.append(".\n");
     }
 
     output.append("Queries(");
@@ -58,7 +58,7 @@ std::string DatalogProgram::toString() {
     for (size_t i = 0; i < queries.size(); i++) {
         output.append("  ");
         output.append(queries.at(i)->toString());
-        output.append("\n");
+        output.append("?\n");
     }
 
     convertFactsParameters();

@@ -49,7 +49,7 @@ std::string DatalogProgram::toString() {
     for (size_t i = 0; i < rules.size(); i++) {
         output.append("  ");
         output.append(rules.at(i)->toString());
-        output.append(".\n");
+        output.append("\n");
     }
 
     output.append("Queries(");

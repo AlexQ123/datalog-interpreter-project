@@ -41,6 +41,7 @@ int main(int argc, char** argv) {
     for (size_t i = 0; i < tokens.size(); i++) {
         if (tokens.at(i)->getType() == TokenType::COMMENT) {
             tokens.erase(tokens.begin() + i);
+            i--;
         }
     }
 

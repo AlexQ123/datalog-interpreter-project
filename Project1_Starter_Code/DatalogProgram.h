@@ -7,8 +7,6 @@
 class DatalogProgram
 {
 private:
-    //store domains in a set
-    std::vector<Parameter*> factsParameters;
     std::set<std::string> domainOutput;
     std::vector<Predicate*> schemes;
     std::vector<Predicate*> facts;

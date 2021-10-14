@@ -258,6 +258,62 @@ CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\DatalogProgram.cpp -o CMakeFiles\project_1.dir\Project1_Starter_Code\DatalogProgram.cpp.s
 
+CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj: CMakeFiles/project_1.dir/includes_CXX.rsp
+CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj: ../Project1_Starter_Code/Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexq\CS236\datalog-interpreter-project\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_1.dir\Project1_Starter_Code\Tuple.cpp.obj -c C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Tuple.cpp
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Tuple.cpp > CMakeFiles\project_1.dir\Project1_Starter_Code\Tuple.cpp.i
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Tuple.cpp -o CMakeFiles\project_1.dir\Project1_Starter_Code\Tuple.cpp.s
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj: CMakeFiles/project_1.dir/includes_CXX.rsp
+CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj: ../Project1_Starter_Code/Header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexq\CS236\datalog-interpreter-project\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_1.dir\Project1_Starter_Code\Header.cpp.obj -c C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Header.cpp
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Header.cpp > CMakeFiles\project_1.dir\Project1_Starter_Code\Header.cpp.i
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Header.cpp -o CMakeFiles\project_1.dir\Project1_Starter_Code\Header.cpp.s
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.obj: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.obj: CMakeFiles/project_1.dir/includes_CXX.rsp
+CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.obj: ../Project1_Starter_Code/Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexq\CS236\datalog-interpreter-project\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_1.dir\Project1_Starter_Code\Relation.cpp.obj -c C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Relation.cpp
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Relation.cpp > CMakeFiles\project_1.dir\Project1_Starter_Code\Relation.cpp.i
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Relation.cpp -o CMakeFiles\project_1.dir\Project1_Starter_Code\Relation.cpp.s
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.obj: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.obj: CMakeFiles/project_1.dir/includes_CXX.rsp
+CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.obj: ../Project1_Starter_Code/Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexq\CS236\datalog-interpreter-project\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_1.dir\Project1_Starter_Code\Database.cpp.obj -c C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Database.cpp
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Database.cpp > CMakeFiles\project_1.dir\Project1_Starter_Code\Database.cpp.i
+
+CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexq\CS236\datalog-interpreter-project\Project1_Starter_Code\Database.cpp -o CMakeFiles\project_1.dir\Project1_Starter_Code\Database.cpp.s
+
 # Object files for target project_1
 project_1_OBJECTS = \
 "CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.obj" \
@@ -272,7 +328,11 @@ project_1_OBJECTS = \
 "CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.obj" \
 "CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.obj" \
 "CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.obj" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.obj"
+"CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.obj" \
+"CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj" \
+"CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj" \
+"CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.obj" \
+"CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.obj"
 
 # External object files for target project_1
 project_1_EXTERNAL_OBJECTS =
@@ -290,11 +350,15 @@ project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.obj
 project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.obj
 project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.obj
 project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.obj
+project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj
+project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj
+project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.obj
+project_1.exe: CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.obj
 project_1.exe: CMakeFiles/project_1.dir/build.make
 project_1.exe: CMakeFiles/project_1.dir/linklibs.rsp
 project_1.exe: CMakeFiles/project_1.dir/objects1.rsp
 project_1.exe: CMakeFiles/project_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexq\CS236\datalog-interpreter-project\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable project_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexq\CS236\datalog-interpreter-project\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable project_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

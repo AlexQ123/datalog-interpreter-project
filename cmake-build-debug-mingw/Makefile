@@ -169,6 +169,33 @@ Project1_Starter_Code/BlockComment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.s
 .PHONY : Project1_Starter_Code/BlockComment.cpp.s
 
+Project1_Starter_Code/Database.obj: Project1_Starter_Code/Database.cpp.obj
+
+.PHONY : Project1_Starter_Code/Database.obj
+
+# target to build an object file
+Project1_Starter_Code/Database.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.obj
+.PHONY : Project1_Starter_Code/Database.cpp.obj
+
+Project1_Starter_Code/Database.i: Project1_Starter_Code/Database.cpp.i
+
+.PHONY : Project1_Starter_Code/Database.i
+
+# target to preprocess a source file
+Project1_Starter_Code/Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.i
+.PHONY : Project1_Starter_Code/Database.cpp.i
+
+Project1_Starter_Code/Database.s: Project1_Starter_Code/Database.cpp.s
+
+.PHONY : Project1_Starter_Code/Database.s
+
+# target to generate assembly for a file
+Project1_Starter_Code/Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.s
+.PHONY : Project1_Starter_Code/Database.cpp.s
+
 Project1_Starter_Code/DatalogProgram.obj: Project1_Starter_Code/DatalogProgram.cpp.obj
 
 .PHONY : Project1_Starter_Code/DatalogProgram.obj
@@ -195,6 +222,33 @@ Project1_Starter_Code/DatalogProgram.s: Project1_Starter_Code/DatalogProgram.cpp
 Project1_Starter_Code/DatalogProgram.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s
 .PHONY : Project1_Starter_Code/DatalogProgram.cpp.s
+
+Project1_Starter_Code/Header.obj: Project1_Starter_Code/Header.cpp.obj
+
+.PHONY : Project1_Starter_Code/Header.obj
+
+# target to build an object file
+Project1_Starter_Code/Header.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj
+.PHONY : Project1_Starter_Code/Header.cpp.obj
+
+Project1_Starter_Code/Header.i: Project1_Starter_Code/Header.cpp.i
+
+.PHONY : Project1_Starter_Code/Header.i
+
+# target to preprocess a source file
+Project1_Starter_Code/Header.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.i
+.PHONY : Project1_Starter_Code/Header.cpp.i
+
+Project1_Starter_Code/Header.s: Project1_Starter_Code/Header.cpp.s
+
+.PHONY : Project1_Starter_Code/Header.s
+
+# target to generate assembly for a file
+Project1_Starter_Code/Header.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.s
+.PHONY : Project1_Starter_Code/Header.cpp.s
 
 Project1_Starter_Code/IDAutomaton.obj: Project1_Starter_Code/IDAutomaton.cpp.obj
 
@@ -385,6 +439,33 @@ Project1_Starter_Code/Predicate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.s
 .PHONY : Project1_Starter_Code/Predicate.cpp.s
 
+Project1_Starter_Code/Relation.obj: Project1_Starter_Code/Relation.cpp.obj
+
+.PHONY : Project1_Starter_Code/Relation.obj
+
+# target to build an object file
+Project1_Starter_Code/Relation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.obj
+.PHONY : Project1_Starter_Code/Relation.cpp.obj
+
+Project1_Starter_Code/Relation.i: Project1_Starter_Code/Relation.cpp.i
+
+.PHONY : Project1_Starter_Code/Relation.i
+
+# target to preprocess a source file
+Project1_Starter_Code/Relation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.i
+.PHONY : Project1_Starter_Code/Relation.cpp.i
+
+Project1_Starter_Code/Relation.s: Project1_Starter_Code/Relation.cpp.s
+
+.PHONY : Project1_Starter_Code/Relation.s
+
+# target to generate assembly for a file
+Project1_Starter_Code/Relation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.s
+.PHONY : Project1_Starter_Code/Relation.cpp.s
+
 Project1_Starter_Code/Rules.obj: Project1_Starter_Code/Rules.cpp.obj
 
 .PHONY : Project1_Starter_Code/Rules.obj
@@ -466,6 +547,33 @@ Project1_Starter_Code/Token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.s
 .PHONY : Project1_Starter_Code/Token.cpp.s
 
+Project1_Starter_Code/Tuple.obj: Project1_Starter_Code/Tuple.cpp.obj
+
+.PHONY : Project1_Starter_Code/Tuple.obj
+
+# target to build an object file
+Project1_Starter_Code/Tuple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj
+.PHONY : Project1_Starter_Code/Tuple.cpp.obj
+
+Project1_Starter_Code/Tuple.i: Project1_Starter_Code/Tuple.cpp.i
+
+.PHONY : Project1_Starter_Code/Tuple.i
+
+# target to preprocess a source file
+Project1_Starter_Code/Tuple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.i
+.PHONY : Project1_Starter_Code/Tuple.cpp.i
+
+Project1_Starter_Code/Tuple.s: Project1_Starter_Code/Tuple.cpp.s
+
+.PHONY : Project1_Starter_Code/Tuple.s
+
+# target to generate assembly for a file
+Project1_Starter_Code/Tuple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.s
+.PHONY : Project1_Starter_Code/Tuple.cpp.s
+
 Project1_Starter_Code/main.obj: Project1_Starter_Code/main.cpp.obj
 
 .PHONY : Project1_Starter_Code/main.obj
@@ -505,9 +613,15 @@ help:
 	@echo ... Project1_Starter_Code/BlockComment.obj
 	@echo ... Project1_Starter_Code/BlockComment.i
 	@echo ... Project1_Starter_Code/BlockComment.s
+	@echo ... Project1_Starter_Code/Database.obj
+	@echo ... Project1_Starter_Code/Database.i
+	@echo ... Project1_Starter_Code/Database.s
 	@echo ... Project1_Starter_Code/DatalogProgram.obj
 	@echo ... Project1_Starter_Code/DatalogProgram.i
 	@echo ... Project1_Starter_Code/DatalogProgram.s
+	@echo ... Project1_Starter_Code/Header.obj
+	@echo ... Project1_Starter_Code/Header.i
+	@echo ... Project1_Starter_Code/Header.s
 	@echo ... Project1_Starter_Code/IDAutomaton.obj
 	@echo ... Project1_Starter_Code/IDAutomaton.i
 	@echo ... Project1_Starter_Code/IDAutomaton.s
@@ -529,6 +643,9 @@ help:
 	@echo ... Project1_Starter_Code/Predicate.obj
 	@echo ... Project1_Starter_Code/Predicate.i
 	@echo ... Project1_Starter_Code/Predicate.s
+	@echo ... Project1_Starter_Code/Relation.obj
+	@echo ... Project1_Starter_Code/Relation.i
+	@echo ... Project1_Starter_Code/Relation.s
 	@echo ... Project1_Starter_Code/Rules.obj
 	@echo ... Project1_Starter_Code/Rules.i
 	@echo ... Project1_Starter_Code/Rules.s
@@ -538,6 +655,9 @@ help:
 	@echo ... Project1_Starter_Code/Token.obj
 	@echo ... Project1_Starter_Code/Token.i
 	@echo ... Project1_Starter_Code/Token.s
+	@echo ... Project1_Starter_Code/Tuple.obj
+	@echo ... Project1_Starter_Code/Tuple.i
+	@echo ... Project1_Starter_Code/Tuple.s
 	@echo ... Project1_Starter_Code/main.obj
 	@echo ... Project1_Starter_Code/main.i
 	@echo ... Project1_Starter_Code/main.s

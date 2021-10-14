@@ -91,10 +91,22 @@
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.cpp">
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.h">
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp">
@@ -139,6 +151,12 @@
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Rules.cpp">
 			<Option target="project_1"/>
 		</Unit>
@@ -155,6 +173,12 @@
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.h">
 			<Option target="project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp">

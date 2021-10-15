@@ -12,6 +12,12 @@ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h
 iostream
 -
 
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.h
+Relation.h
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.h
+map
+-
+
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.h
 Predicate.h
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.h
@@ -25,6 +31,12 @@ vector
 -
 string
 -
+
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.h
+DatalogProgram.h
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.h
+Database.h
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.h
 
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.h
 vector
@@ -60,10 +72,6 @@ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter
 vector
 -
 
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.cpp
-Relation.h
-C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.h
-
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.h
 Tuple.h
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.h
@@ -95,6 +103,8 @@ Lexer.h
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.h
 Parser.h
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.h
+Interpreter.h
+C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.h
 Relation.h
 C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.h
 iostream

@@ -490,4 +490,8 @@ void Parser::ParseCOMMA(std::vector<Token *> &tokens) {
     }
 }
 
+DatalogProgram * Parser::getDatalogProgram() {
+    return datalogProgram;
+}
+
 

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.obj"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.obj"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.obj"
+  "CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.obj"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.obj"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.obj"
   "CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.obj"

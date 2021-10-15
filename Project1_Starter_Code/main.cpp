@@ -1,5 +1,6 @@
 #include "Lexer.h"
 #include "Parser.h"
+#include "Interpreter.h"
 #include "Relation.h"
 #include <iostream>
 #include <fstream>
@@ -57,40 +58,53 @@ int main(int argc, char** argv) {
         std::cout << token->toString();
         return 1;
     }
-    //Printing output for project 2 if successful
-    std::cout << "Success!" << std::endl;
-    parser->printDatalogProgram();
 
-    //testing Relation toString
-    std::string testName = "testName";
-    std::vector<std::string> testAttributes = {"X", "Y", "Z"};
-    Header testHeader;
-    testHeader.setAttributes(testAttributes);
-    Relation testRelation(testName, testHeader);
+    //If the parse is successful, run the interpreter
+    DatalogProgram* datalogProgram = parser->getDatalogProgram();
+    Interpreter* interpreter = new Interpreter(datalogProgram);
+    std::string interpreterOutput = interpreter->Interpret();
+    std::cout << interpreterOutput;
 
-    std::set<Tuple> testTuples;
+//    //Printing output for project 2 if successful
+//    std::cout << "Success!" << std::endl;
+//    parser->printDatalogProgram();
+//
+//    //testing Relation toString
+//    std::string testName = "testName";
+//    std::vector<std::string> testAttributes = {"X", "Y", "Z"};
+//    Header testHeader;
+//    testHeader.setAttributes(testAttributes);
+//    Relation testRelation(testName, testHeader);
+//
+//    std::set<Tuple> testTuples;
+//
+//    std::vector<std::string> testTupleOne = {"a", "b", "b"};
+//    std::vector<std::string> testTupleTwo = {"a", "a", "a"};
+//    testTuples.insert(testTupleOne);
+//    testTuples.insert(testTupleTwo);
+//
+//    testRelation.setTuples(testTuples);
+//    std::cout << std::endl << "toString():\n" << testRelation.toString() << std::endl;
+//
+//    //testing Relation select1
+//    Relation testSelectOne = testRelation.select(2, "b");
+//    std::cout << "select1:\n" << testSelectOne.toString() << std::endl;
+//
+//    //testing Relation select2
+//    std::vector<int> testIndices = {0,1,2};
+//    Relation testSelectTwo = testRelation.select(testIndices);
+//    std::cout << "select2:\n" << testSelectTwo.toString() << std::endl;
+//
+//    //testing Relation project
+//    std::vector<int> testIndicesP = {1,2,0};
+//    Relation testProject = testRelation.project(testIndicesP);
+//    std::cout << "project:\n" << testProject.toString() << std::endl;
+//
+//    //testing Relation rename
+//    std::vector<std::string> testNewAttributes = {"A", "B", "C"};
+//    Relation testRename = testRelation.rename(testNewAttributes);
+//    std::cout << "rename:\n" << testRename.toString() << std::endl;
 
-    std::vector<std::string> testTupleOne = {"a", "b", "b"};
-    std::vector<std::string> testTupleTwo = {"a", "a", "a"};
-    testTuples.insert(testTupleOne);
-    testTuples.insert(testTupleTwo);
-
-    testRelation.setTuples(testTuples);
-    std::cout << std::endl << "toString():\n" << testRelation.toString() << std::endl;
-
-    //testing Relation select1
-    Relation testSelectOne = testRelation.select(2, "b");
-    std::cout << "select1:\n" << testSelectOne.toString() << std::endl;
-
-    //testing Relation select2
-    std::vector<int> testIndices = {0,1,2};
-    Relation testSelectTwo = testRelation.select(testIndices);
-    std::cout << "select2:\n" << testSelectTwo.toString() << std::endl;
-
-    //testing Relation project
-    std::vector<int> testIndicesP = {1,2,0};
-    Relation testProject = testRelation.project(testIndicesP);
-    std::cout << "project:\n" << testProject.toString() << std::endl;
 
     //Printing out the tokens for project 1
 //    for (size_t i = 0; i < tokens.size(); i++) {

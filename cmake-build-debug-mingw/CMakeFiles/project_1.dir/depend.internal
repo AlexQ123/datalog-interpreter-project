@@ -27,6 +27,18 @@ CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.obj
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.h
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h
+CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.obj
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.cpp
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Rules.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.h
 CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.obj
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Automaton.h
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.h
@@ -88,8 +100,10 @@ CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.obj
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.h
 CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.obj
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Automaton.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.h
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.h
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.h
+ C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.h
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.h
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter.h
  C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.h

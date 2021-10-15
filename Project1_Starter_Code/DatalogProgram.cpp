@@ -75,3 +75,15 @@ std::string DatalogProgram::toString() {
     return output;
 
 }
+
+std::vector<Predicate *> DatalogProgram::getSchemes() {
+    return schemes;
+}
+
+std::vector<Predicate *> DatalogProgram::getFacts() {
+    return facts;
+}
+
+std::vector<Predicate *> DatalogProgram::getQueries() {
+    return queries;
+}

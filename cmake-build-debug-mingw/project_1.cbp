@@ -115,6 +115,12 @@
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="C:/Users/alexq/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.cpp">
 			<Option target="project_1"/>
 		</Unit>

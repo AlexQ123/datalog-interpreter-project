@@ -31,3 +31,7 @@ std::string Predicate::toString() {
     return output;
 }
 
+std::string Predicate::getName() {
+    return name;
+}
+

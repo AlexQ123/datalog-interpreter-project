@@ -16,6 +16,7 @@ public:
     void setParameters(std::vector<Parameter*> parameters);
     std::vector<Parameter*> getParameters();
     std::string toString();
+    std::string getName();
 };
 
 #endif //PROJECT_1_PREDICATE_H

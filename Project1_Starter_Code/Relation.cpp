@@ -13,6 +13,10 @@ void Relation::setTuples(std::set<Tuple> tuples) {
     this->tuples = tuples;
 }
 
+void Relation::addTuple(Tuple tuple) {
+    this->tuples.insert(tuple);
+}
+
 std::string Relation::toString() {
     std::string output = "";
     std::vector<std::string> attributesToPrint = this->header.getAttributes();
@@ -20,17 +24,18 @@ std::string Relation::toString() {
     for (it = tuples.begin(); it != tuples.end(); it++) {
         Tuple currentTuple = *it;
         for (size_t i = 0; i < attributesToPrint.size(); i++) {
+            output.append("  ");
             if (i == attributesToPrint.size() - 1) {
                 output.append(attributesToPrint.at(i));
-                output.append("='");
+                output.append("=");
                 output.append(currentTuple.getValues().at(i));
-                output.append("'\n");
+                output.append("\n");
             }
             else {
                 output.append(attributesToPrint.at(i));
-                output.append("='");
+                output.append("=");
                 output.append(currentTuple.getValues().at(i));
-                output.append("', ");
+                output.append(", ");
             }
         }
     }
@@ -93,8 +98,8 @@ Relation Relation::project(std::vector<int> indices) {
         std::vector<std::string> newValues;
 
         std::vector<std::string> currentTupleValues = currentTuple.getValues();
-        for (size_t i = 0; i < currentTupleValues.size(); i++) {
-            std::string newString = currentTuple.getValues().at(indices.at(i));
+        for (size_t i = 0; i < indices.size(); i++) {
+            std::string newString = currentTupleValues.at(indices.at(i));
             newValues.push_back(newString);
         }
 
@@ -107,4 +112,16 @@ Relation Relation::project(std::vector<int> indices) {
     return newRelation;
 }
 
+Relation Relation::rename(std::vector<std::string> newAttributes) {
+    Header newHeader;
+    newHeader.setAttributes(newAttributes);
 
+    Relation newRelation(this->name, newHeader);
+    newRelation.setTuples(this->tuples);
+
+    return newRelation;
+}
+
+std::set<Tuple> Relation::getTuples() {
+    return tuples;
+}

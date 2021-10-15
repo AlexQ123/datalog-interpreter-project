@@ -12,13 +12,16 @@ private:
     std::vector<Predicate*> facts;
     std::vector<Predicate*> queries;
     std::vector<Rules*> rules;
+    void convertFactsParameters();
 
 public:
     DatalogProgram(std::vector<Predicate*> schemes, std::vector<Predicate*> facts, std::vector<Predicate*> queries, std::vector<Rules*> rules);
     ~DatalogProgram();
 
     std::string toString();
-    void convertFactsParameters();
+    std::vector<Predicate*> getSchemes();
+    std::vector<Predicate*> getFacts();
+    std::vector<Predicate*> getQueries();
 };
 
 #endif //PROJECT_1_DATALOGPROGRAM_H

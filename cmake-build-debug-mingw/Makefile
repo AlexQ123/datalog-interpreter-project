@@ -277,6 +277,33 @@ Project1_Starter_Code/IDAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.s
 .PHONY : Project1_Starter_Code/IDAutomaton.cpp.s
 
+Project1_Starter_Code/Interpreter.obj: Project1_Starter_Code/Interpreter.cpp.obj
+
+.PHONY : Project1_Starter_Code/Interpreter.obj
+
+# target to build an object file
+Project1_Starter_Code/Interpreter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.obj
+.PHONY : Project1_Starter_Code/Interpreter.cpp.obj
+
+Project1_Starter_Code/Interpreter.i: Project1_Starter_Code/Interpreter.cpp.i
+
+.PHONY : Project1_Starter_Code/Interpreter.i
+
+# target to preprocess a source file
+Project1_Starter_Code/Interpreter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.i
+.PHONY : Project1_Starter_Code/Interpreter.cpp.i
+
+Project1_Starter_Code/Interpreter.s: Project1_Starter_Code/Interpreter.cpp.s
+
+.PHONY : Project1_Starter_Code/Interpreter.s
+
+# target to generate assembly for a file
+Project1_Starter_Code/Interpreter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1.dir\build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.s
+.PHONY : Project1_Starter_Code/Interpreter.cpp.s
+
 Project1_Starter_Code/Lexer.obj: Project1_Starter_Code/Lexer.cpp.obj
 
 .PHONY : Project1_Starter_Code/Lexer.obj
@@ -625,6 +652,9 @@ help:
 	@echo ... Project1_Starter_Code/IDAutomaton.obj
 	@echo ... Project1_Starter_Code/IDAutomaton.i
 	@echo ... Project1_Starter_Code/IDAutomaton.s
+	@echo ... Project1_Starter_Code/Interpreter.obj
+	@echo ... Project1_Starter_Code/Interpreter.i
+	@echo ... Project1_Starter_Code/Interpreter.s
 	@echo ... Project1_Starter_Code/Lexer.obj
 	@echo ... Project1_Starter_Code/Lexer.i
 	@echo ... Project1_Starter_Code/Lexer.s

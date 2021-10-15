@@ -17,11 +17,13 @@ public:
     Relation(std::string name, Header header);
     ~Relation();
     void setTuples(std::set<Tuple> tuples);
+    void addTuple(Tuple tuple);
     std::string toString();
     Relation select(int index, std::string value);
     Relation select(std::vector<int> indices);
     Relation project(std::vector<int> indices);
     Relation rename(std::vector<std::string> newAttributes);
+    std::set<Tuple> getTuples();
 };
 
 #endif //PROJECT_1_RELATION_H

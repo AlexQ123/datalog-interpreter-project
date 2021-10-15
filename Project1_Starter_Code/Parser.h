@@ -67,6 +67,8 @@ public:
         std::cout << datalogProgram->toString();
     }
 
+    DatalogProgram* getDatalogProgram();
+
 };
 
 #endif //PROJECT_1_PARSER_H

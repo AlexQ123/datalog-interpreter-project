@@ -41,6 +41,8 @@ Relation Interpreter::evaluatePredicate(Predicate p) {
             if (alreadySeen.find(currentParameter) != alreadySeen.end()) {
                 selectVariableColumns.push_back(i);
                 myRelation = myRelation.select(selectVariableColumns);
+                variableColumns.pop_back();
+                renameAttributes.pop_back();
             }
             else {
                 alreadySeen.insert(currentParameter);

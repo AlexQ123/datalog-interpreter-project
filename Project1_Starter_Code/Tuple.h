@@ -12,7 +12,7 @@ private:
 public:
     Tuple(std::vector<std::string> values);
     ~Tuple();
-    std::vector<std::string> getValues();
+    const std::vector<std::string>& getValues();
 
     bool operator< (const Tuple &rhs) const {
         return values < rhs.values;

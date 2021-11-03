@@ -23,7 +23,13 @@ public:
     Relation select(std::vector<int> indices);
     Relation project(std::vector<int> indices);
     Relation rename(std::vector<std::string> newAttributes);
-    std::set<Tuple> getTuples();
+    Relation join(Relation r2);
+    bool isJoinable(Tuple t1, Tuple t2, const std::vector<int>& t1indices, const std::vector<int>& t2indices);
+    Tuple combineTuples(Tuple t1, Tuple t2, const std::vector<int>& t2Indices);
+    const std::set<Tuple>& getTuples();
+    Header getHeader();
+    void setName(std::string name);
+    std::string getName();
 };
 
 #endif //PROJECT_1_RELATION_H

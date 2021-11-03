@@ -1,4 +1,5 @@
 #include "Relation.h"
+#include <iostream>
 
 Relation::Relation(std::string name, Header header) {
     this->name = name;
@@ -122,6 +123,90 @@ Relation Relation::rename(std::vector<std::string> newAttributes) {
     return newRelation;
 }
 
-std::set<Tuple> Relation::getTuples() {
+const std::set<Tuple>& Relation::getTuples() {
     return tuples;
+}
+
+Header Relation::getHeader() {
+    return header;
+}
+
+void Relation::setName(std::string name) {
+    this->name = name;
+}
+
+std::string Relation::getName() {
+    return name;
+}
+
+Relation Relation::join(Relation r2) {
+    //create the new header
+    Header newHeader;
+    std::vector<std::string> r1attributes = header.getAttributes();
+    std::vector<std::string> r2attributes = r2.getHeader().getAttributes();
+    std::vector<std::string> newAttributes = r1attributes;
+    std::vector<int> r1MatchingIndices;
+    std::vector<int> r2MatchingIndices;
+    std::vector<int> r2UniqueIndices;
+    for (size_t i = 0; i < r2attributes.size(); i++) {
+        bool isUnique = true;
+        for (size_t j = 0; j < newAttributes.size(); j++) {
+            if (r2attributes.at(i) == newAttributes.at(j)) {
+                isUnique = false;
+                r1MatchingIndices.push_back(j);
+            }
+        }
+        if (isUnique) {
+            newAttributes.push_back(r2attributes.at(i));
+            r2UniqueIndices.push_back(i);
+        }
+        else {
+            r2MatchingIndices.push_back(i);
+        }
+    }
+    newHeader.setAttributes(newAttributes);
+
+    //create empty relation using the new header
+    std::string tempName = name + "+" + r2.getName();
+    Relation newRelation(tempName, newHeader);
+
+    //combine tuples
+    std::set<Tuple>::iterator it1;
+    std::set<Tuple>::iterator it2;
+    for (it1 = tuples.begin(); it1 != tuples.end(); it1++) {
+        for (it2 = r2.getTuples().begin(); it2 != r2.getTuples().end(); it2++) {
+            bool joinable = isJoinable(*it1, *it2, r1MatchingIndices, r2MatchingIndices);
+            if (joinable) {
+                Tuple newTuple = combineTuples(*it1, *it2, r2UniqueIndices);
+                newRelation.addTuple(newTuple);
+            }
+        }
+    }
+
+    return newRelation;
+}
+
+bool Relation::isJoinable(Tuple t1, Tuple t2, const std::vector<int>& t1indices, const std::vector<int>& t2indices) {
+    bool joinable = true;
+    for (size_t i = 0; i < t1indices.size(); i++) {
+        std::cout << t1.getValues().size() << std::endl;
+        std::cout << t2.getValues().size() << std::endl;
+        std::cout << t1indices.size() << std::endl;
+        std::cout << t2indices.size() << std::endl;
+        std::cout << i << std::endl;
+
+        if (t1.getValues().at(t1indices.at(i)) != t2.getValues().at(t2indices.at(i))) {
+            joinable = false;
+        }
+    }
+    return joinable;
+}
+
+Tuple Relation::combineTuples(Tuple t1, Tuple t2, const std::vector<int>& t2Indices) {
+    std::vector<std::string> newValues = t1.getValues();
+    for (size_t i = 0; i < t2Indices.size(); i++) {
+        newValues.push_back(t2.getValues().at(t2Indices.at(i)));
+    }
+    Tuple newTuple(newValues);
+    return newTuple;
 }

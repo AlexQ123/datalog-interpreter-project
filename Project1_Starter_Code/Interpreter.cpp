@@ -16,12 +16,13 @@ Relation Interpreter::evaluatePredicate(Predicate p) {
     Relation myRelation("", dummyHeader);
     //get the relation with the same name as the current query
     std::map<std::string, Relation*> tablesToCheck = database.getTables();
-    std::map<std::string, Relation*>::iterator it;
-    for (it = tablesToCheck.begin(); it != tablesToCheck.end(); it++) {
-        if (it->first == p.getName()) {
-            myRelation = *(it->second);
-        }
-    }
+    myRelation = *(tablesToCheck.at(p.getName()));
+//    std::map<std::string, Relation*>::iterator it;
+//    for (it = tablesToCheck.begin(); it != tablesToCheck.end(); it++) {
+//        if (it->first == p.getName()) {
+//            myRelation = *(it->second);
+//        }
+//    }
 
     std::vector<Parameter*> currentParameters = p.getParameters();
     std::set<std::string> alreadySeen;
@@ -34,7 +35,7 @@ Relation Interpreter::evaluatePredicate(Predicate p) {
         if (currentParameter[0] == '\'') {
             myRelation = myRelation.select(i, currentParameter);
         }
-        //select type 2
+        //for each variable, store its index. if duplicate, do select type 2 and remove its index so it isn't printed
         else {
             variableColumns.push_back(i);
             renameAttributes.push_back(currentParameter);

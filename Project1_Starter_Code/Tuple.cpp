@@ -8,6 +8,6 @@ Tuple::~Tuple() {
 
 }
 
-std::vector<std::string> Tuple::getValues() {
+const std::vector<std::string>& Tuple::getValues() {
     return values;
 }

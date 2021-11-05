@@ -103,6 +103,7 @@ std::string Interpreter::Interpret() {
     bool continueToEvaluateRules = true;
     int passThroughCounter = 0;
     while (continueToEvaluateRules) {
+        continueToEvaluateRules = false;
         std::vector<Rules*> rules = datalogProgram->getRules();
         for (size_t i = 0; i < rules.size(); i++) {
             //add rule to output
@@ -144,7 +145,7 @@ std::string Interpreter::Interpret() {
 
             //union with relation in DB
             bool added = relationInDB->unionRelations(joinedRelation);
-            continueToEvaluateRules = added;
+            continueToEvaluateRules = continueToEvaluateRules || added;
             // database.addTable(ruleHeadPredicate.getName(), relationInDB);
         }
         //increment passThroughCounter

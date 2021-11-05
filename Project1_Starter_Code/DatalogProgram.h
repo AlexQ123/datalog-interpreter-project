@@ -22,6 +22,7 @@ public:
     std::vector<Predicate*> getSchemes();
     std::vector<Predicate*> getFacts();
     std::vector<Predicate*> getQueries();
+    std::vector<Rules*> getRules();
 };
 
 #endif //PROJECT_1_DATALOGPROGRAM_H

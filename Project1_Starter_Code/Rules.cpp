@@ -16,6 +16,14 @@ void Rules::setPredicates(std::vector<Predicate *> predicates) {
     this->predicates = predicates;
 }
 
+Predicate * Rules::getHeadPredicate() {
+    return headPredicate;
+}
+
+std::vector<Predicate *> Rules::getPredicates() {
+    return predicates;
+}
+
 std::string Rules::toString() {
     std::string output = headPredicate->toString();
     output.append(" :- ");

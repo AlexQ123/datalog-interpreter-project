@@ -1,5 +1,4 @@
 #include "Relation.h"
-#include <iostream>
 
 Relation::Relation(std::string name, Header header) {
     this->name = name;
@@ -8,14 +7,6 @@ Relation::Relation(std::string name, Header header) {
 
 Relation::~Relation() {
 
-}
-
-void Relation::setTuples(std::set<Tuple> tuples) {
-    this->tuples = tuples;
-}
-
-void Relation::addTuple(Tuple tuple) {
-    this->tuples.insert(tuple);
 }
 
 std::string Relation::toString() {
@@ -123,22 +114,6 @@ Relation Relation::rename(std::vector<std::string> newAttributes) {
     return newRelation;
 }
 
-const std::set<Tuple>& Relation::getTuples() {
-    return tuples;
-}
-
-Header Relation::getHeader() {
-    return header;
-}
-
-void Relation::setName(std::string name) {
-    this->name = name;
-}
-
-std::string Relation::getName() {
-    return name;
-}
-
 Relation Relation::join(Relation r2) {
     //create the new header
     Header newHeader;
@@ -189,12 +164,6 @@ Relation Relation::join(Relation r2) {
 bool Relation::isJoinable(Tuple t1, Tuple t2, const std::vector<int>& t1indices, const std::vector<int>& t2indices) {
     bool joinable = true;
     for (size_t i = 0; i < t1indices.size(); i++) {
-        std::cout << t1.getValues().size() << std::endl;
-        std::cout << t2.getValues().size() << std::endl;
-        std::cout << t1indices.size() << std::endl;
-        std::cout << t2indices.size() << std::endl;
-        std::cout << i << std::endl;
-
         if (t1.getValues().at(t1indices.at(i)) != t2.getValues().at(t2indices.at(i))) {
             joinable = false;
         }
@@ -209,4 +178,39 @@ Tuple Relation::combineTuples(Tuple t1, Tuple t2, const std::vector<int>& t2Indi
     }
     Tuple newTuple(newValues);
     return newTuple;
+}
+
+bool Relation::unionRelations(Relation r) {
+    bool added = false;
+    std::set<Tuple>::iterator it;
+    for (it = r.getTuples().begin(); it != r.getTuples().end(); it++) {
+        if (tuples.insert(*it).second) {
+            added = true;
+        }
+    }
+    return added;
+}
+
+void Relation::setTuples(std::set<Tuple> tuples) {
+    this->tuples = tuples;
+}
+
+void Relation::addTuple(Tuple tuple) {
+    this->tuples.insert(tuple);
+}
+
+const std::set<Tuple>& Relation::getTuples() {
+    return tuples;
+}
+
+Header Relation::getHeader() {
+    return header;
+}
+
+void Relation::setName(std::string name) {
+    this->name = name;
+}
+
+std::string Relation::getName() {
+    return name;
 }

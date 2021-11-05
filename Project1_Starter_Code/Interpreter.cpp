@@ -1,4 +1,5 @@
 #include "Interpreter.h"
+#include <iostream>
 
 Interpreter::Interpreter(DatalogProgram *datalogProgram) {
     this->datalogProgram = datalogProgram;
@@ -97,8 +98,56 @@ std::string Interpreter::Interpret() {
         }
     }
 
+    //evaluate the rules and tostring for output
+    std::string output = "Rule Evaluation\n";
+    bool continueToEvaluateRules = true;
+    while (continueToEvaluateRules) {
+        std::vector<Rules*> rules = datalogProgram->getRules();
+        for (size_t i = 0; i < rules.size(); i++) {
+            //for each rule, evaluate the predicates on the right hand side
+            std::vector<Relation> relationsToJoin;
+            std::vector<Predicate*> currentPredicates = rules.at(i)->getPredicates();
+            for (size_t i = 0; i < currentPredicates.size(); i++) {
+                Predicate predicateToPass = *currentPredicates.at(i);
+                Relation resultingRelation = evaluatePredicate(predicateToPass);
+                relationsToJoin.push_back(resultingRelation);
+            }
+
+            //join the resulting relations
+            Relation joinedRelation = relationsToJoin.at(0);
+            for (size_t i = 1; i < relationsToJoin.size(); i++) {
+                joinedRelation = joinedRelation.join(relationsToJoin.at(i));
+            }
+
+            //project the columns that appear in the head predicate
+            std::vector<int> indicesToProject;
+            Predicate ruleHeadPredicate = *(rules.at(i)->getHeadPredicate());
+            for (size_t i = 0; i < ruleHeadPredicate.getParameters().size(); i++) {
+                std::string lookFor = ruleHeadPredicate.getParameters().at(i)->toString();
+                for (size_t i = 0; i < joinedRelation.getHeader().getAttributes().size(); i++) {
+                    if (joinedRelation.getHeader().getAttributes().at(i) == lookFor) {
+                        indicesToProject.push_back(i);
+                    }
+                }
+            }
+            joinedRelation = joinedRelation.project(indicesToProject);
+
+            //rename to header of relation in DB
+            std::map<std::string, Relation*> tablesToCheck = database.getTables();
+            Relation *relationInDB = (tablesToCheck.at(ruleHeadPredicate.getName()));
+            std::vector<std::string> correctAttributes = relationInDB->getHeader().getAttributes();
+            joinedRelation = joinedRelation.rename(correctAttributes);
+
+            //union with relation in DB
+            bool added = relationInDB->unionRelations(joinedRelation);
+            continueToEvaluateRules = added;
+            // database.addTable(ruleHeadPredicate.getName(), relationInDB);
+        }
+    }
+
+
     //evaluate each query and tostring for output
-    std::string output = "";
+    output.append("Query Evaluation\n");
     std::vector<Predicate*> queries = datalogProgram->getQueries();
     for (size_t i = 0; i < queries.size(); i++) {
         output.append(queries.at(i)->toString());

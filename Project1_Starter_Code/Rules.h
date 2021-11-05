@@ -16,6 +16,8 @@ public:
     std::string toString();
     void setHeadPredicate(Predicate* headPredicate);
     void setPredicates(std::vector<Predicate*> predicates);
+    Predicate* getHeadPredicate();
+    std::vector<Predicate*> getPredicates();
 };
 
 #endif //PROJECT_1_RULES_H

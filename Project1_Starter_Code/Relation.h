@@ -16,8 +16,6 @@ private:
 public:
     Relation(std::string name, Header header);
     ~Relation();
-    void setTuples(std::set<Tuple> tuples);
-    void addTuple(Tuple tuple);
     std::string toString();
     Relation select(int index, std::string value);
     Relation select(std::vector<int> indices);
@@ -26,6 +24,9 @@ public:
     Relation join(Relation r2);
     bool isJoinable(Tuple t1, Tuple t2, const std::vector<int>& t1indices, const std::vector<int>& t2indices);
     Tuple combineTuples(Tuple t1, Tuple t2, const std::vector<int>& t2Indices);
+    bool unionRelations(Relation r);
+    void setTuples(std::set<Tuple> tuples);
+    void addTuple(Tuple tuple);
     const std::set<Tuple>& getTuples();
     Header getHeader();
     void setName(std::string name);

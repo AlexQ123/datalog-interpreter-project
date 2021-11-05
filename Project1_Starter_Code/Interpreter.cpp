@@ -99,11 +99,15 @@ std::string Interpreter::Interpret() {
     }
 
     //evaluate the rules and tostring for output
-    std::string output = "Rule Evaluation\n";
+    std::cout << "Rule Evaluation\n";
     bool continueToEvaluateRules = true;
+    int passThroughCounter = 0;
     while (continueToEvaluateRules) {
         std::vector<Rules*> rules = datalogProgram->getRules();
         for (size_t i = 0; i < rules.size(); i++) {
+            //add rule to output
+            std::cout << rules.at(i)->toString() << "\n";
+
             //for each rule, evaluate the predicates on the right hand side
             std::vector<Relation> relationsToJoin;
             std::vector<Predicate*> currentPredicates = rules.at(i)->getPredicates();
@@ -143,27 +147,31 @@ std::string Interpreter::Interpret() {
             continueToEvaluateRules = added;
             // database.addTable(ruleHeadPredicate.getName(), relationInDB);
         }
+        //increment passThroughCounter
+        passThroughCounter += 1;
     }
+
+    std::cout << "\n" << "Schemes populated after " << std::to_string(passThroughCounter) << " passes through the Rules.\n\n";
 
 
     //evaluate each query and tostring for output
-    output.append("Query Evaluation\n");
+    std::string queryOutput = "Query Evaluation\n";
     std::vector<Predicate*> queries = datalogProgram->getQueries();
     for (size_t i = 0; i < queries.size(); i++) {
-        output.append(queries.at(i)->toString());
-        output.append("? ");
+        queryOutput.append(queries.at(i)->toString());
+        queryOutput.append("? ");
         Predicate predicateToEvaluate = *queries.at(i);
         Relation resultingRelation = evaluatePredicate(predicateToEvaluate);
         if (resultingRelation.getTuples().size() == 0) {
-            output.append("No\n");
+            queryOutput.append("No\n");
         }
         else {
-            output.append("Yes(");
-            output.append(std::to_string(resultingRelation.getTuples().size()));
-            output.append(")\n");
+            queryOutput.append("Yes(");
+            queryOutput.append(std::to_string(resultingRelation.getTuples().size()));
+            queryOutput.append(")\n");
         }
-        output.append(resultingRelation.toString());
+        queryOutput.append(resultingRelation.toString());
     }
 
-    return output;
+    return queryOutput;
 }

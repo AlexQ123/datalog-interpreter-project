@@ -1,4 +1,5 @@
 #include "Relation.h"
+#include <iostream>
 
 Relation::Relation(std::string name, Header header) {
     this->name = name;
@@ -15,8 +16,9 @@ std::string Relation::toString() {
     std::set<Tuple>::iterator it;
     for (it = tuples.begin(); it != tuples.end(); it++) {
         Tuple currentTuple = *it;
+        output.append("  ");
         for (size_t i = 0; i < attributesToPrint.size(); i++) {
-            output.append("  ");
+            // output.append("  ");
             if (i == attributesToPrint.size() - 1) {
                 output.append(attributesToPrint.at(i));
                 output.append("=");
@@ -183,11 +185,14 @@ Tuple Relation::combineTuples(Tuple t1, Tuple t2, const std::vector<int>& t2Indi
 bool Relation::unionRelations(Relation r) {
     bool added = false;
     std::set<Tuple>::iterator it;
+    Relation uniqueRelation("", r.getHeader());
     for (it = r.getTuples().begin(); it != r.getTuples().end(); it++) {
         if (tuples.insert(*it).second) {
             added = true;
+            uniqueRelation.addTuple(*it);
         }
     }
+    std::cout << uniqueRelation.toString();
     return added;
 }
 

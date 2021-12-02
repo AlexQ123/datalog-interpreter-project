@@ -16,9 +16,9 @@ std::string Relation::toString() {
     std::set<Tuple>::iterator it;
     for (it = tuples.begin(); it != tuples.end(); it++) {
         Tuple currentTuple = *it;
-        output.append("  ");
+        //output.append("  ");
         for (size_t i = 0; i < attributesToPrint.size(); i++) {
-            // output.append("  ");
+            output.append("  ");
             if (i == attributesToPrint.size() - 1) {
                 output.append(attributesToPrint.at(i));
                 output.append("=");

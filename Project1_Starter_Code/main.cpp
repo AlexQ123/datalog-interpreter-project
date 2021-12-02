@@ -1,24 +1,23 @@
 #include "Lexer.h"
 #include "Parser.h"
 #include "Interpreter.h"
-#include "Relation.h"
 #include <iostream>
 #include <fstream>
 #include <string>
 
 int main(int argc, char** argv) {
-    //Make lexer and parser
+    //create lexer and parser
     Lexer* lexer = new Lexer();
     Parser* parser = new Parser();
 
-    //Make sure file is given
+    //make sure file is given
     if (argc < 2) {
         std::cout << "No file name was given." << std::endl;
     }
 
     std::string inputFileName = argv[1];
 
-    //Read in contents of file
+    //read in contents of file
     std::ifstream fileContents(inputFileName);
     if (!fileContents.is_open()) {
         std::cout << inputFileName << std::endl;
@@ -37,11 +36,11 @@ int main(int argc, char** argv) {
     input.pop_back();
 
 
-    //Run the lexer and store tokens in vector tokens
+    //run the lexer and store tokens in vector tokens
     lexer->Run(input);
     std::vector<Token*> tokens = lexer->getTokens();
 
-    //Get rid of tokens with TokenType COMMENT
+    //get rid of tokens with TokenType COMMENT
     for (size_t i = 0; i < tokens.size(); i++) {
         if (tokens.at(i)->getType() == TokenType::COMMENT) {
             tokens.erase(tokens.begin() + i);
@@ -49,7 +48,7 @@ int main(int argc, char** argv) {
         }
     }
 
-    //Run the parser to see if it is a valid datalog program
+    //run the parser to see if it is a valid datalog program
     try {
         parser->Parse(tokens);
     }
@@ -59,7 +58,8 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    //If the parse is successful, run the interpreter
+    //if the parse is successful, run the interpreter: note that interpreterOutput is just the query output
+    //the rest of the output is handled and couted in the actual interpreter itself: see Interpreter.cpp
     DatalogProgram* datalogProgram = parser->getDatalogProgram();
     Interpreter* interpreter = new Interpreter(datalogProgram);
     std::string interpreterOutput = interpreter->Interpret();
@@ -185,6 +185,8 @@ int main(int argc, char** argv) {
 
     delete lexer;
     delete parser;
+    delete datalogProgram;
+    delete interpreter;
 
     fileContents.close();
 

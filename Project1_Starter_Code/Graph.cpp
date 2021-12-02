@@ -146,12 +146,6 @@ void Graph::DFS(int v, std::vector<int> &tree) {
 }
 
 std::vector<int> Graph::getReversePostorder() {
-//    std::vector<int> reversePostorder;
-//    for (size_t i = 0; i < forest.size(); i++) {
-//        for (size_t j = forest.at(i).size(); j --> 0;) {
-//            reversePostorder.push_back(forest.at(i).at(j));
-//        }
-//    }
     std::vector<int> reversePostorder = postorder;
     std::reverse(reversePostorder.begin(), reversePostorder.end());
     return reversePostorder;

@@ -263,63 +263,6 @@ std::string Interpreter::Interpret() {
 
     std::cout << std::endl;
 
-    //ALL OF THIS IS FROM PROJECT 4
-//    bool continueToEvaluateRules = true;
-//    int passThroughCounter = 0;
-//    while (continueToEvaluateRules) {
-//        continueToEvaluateRules = false;
-//
-//        for (size_t i = 0; i < rules.size(); i++) {
-//            //add rule to output
-//            std::cout << rules.at(i)->toString() << "\n";
-//
-//            //for each rule, evaluate the predicates on the right hand side
-//            std::vector<Relation> relationsToJoin;
-//            std::vector<Predicate*> currentPredicates = rules.at(i)->getPredicates();
-//            for (size_t i = 0; i < currentPredicates.size(); i++) {
-//                Predicate predicateToPass = *currentPredicates.at(i);
-//                Relation resultingRelation = evaluatePredicate(predicateToPass);
-//                relationsToJoin.push_back(resultingRelation);
-//            }
-//
-//            //join the resulting relations
-//            Relation joinedRelation = relationsToJoin.at(0);
-//            for (size_t i = 1; i < relationsToJoin.size(); i++) {
-//                joinedRelation = joinedRelation.join(relationsToJoin.at(i));
-//            }
-//
-//            //project the columns that appear in the head predicate
-//            std::vector<int> indicesToProject;
-//            Predicate ruleHeadPredicate = *(rules.at(i)->getHeadPredicate());
-//            for (size_t i = 0; i < ruleHeadPredicate.getParameters().size(); i++) {
-//                std::string lookFor = ruleHeadPredicate.getParameters().at(i)->toString();
-//                for (size_t i = 0; i < joinedRelation.getHeader().getAttributes().size(); i++) {
-//                    if (joinedRelation.getHeader().getAttributes().at(i) == lookFor) {
-//                        indicesToProject.push_back(i);
-//                    }
-//                }
-//            }
-//            joinedRelation = joinedRelation.project(indicesToProject);
-//
-//            //rename to header of relation in DB
-//            std::map<std::string, Relation*> tablesToCheck = database.getTables();
-//            Relation *relationInDB = (tablesToCheck.at(ruleHeadPredicate.getName()));
-//            std::vector<std::string> correctAttributes = relationInDB->getHeader().getAttributes();
-//            joinedRelation = joinedRelation.rename(correctAttributes);
-//
-//            //union with relation in DB
-//            bool added = relationInDB->unionRelations(joinedRelation);
-//            /* if there are multiple rules, we must keep running the loop as long as one of them
-//            returns true, so as we're iterating through each rule for each passThrough, us OR to
-//            preserve any TRUE values */
-//            continueToEvaluateRules = continueToEvaluateRules || added;
-//            // database.addTable(ruleHeadPredicate.getName(), relationInDB);
-//        }
-//        //increment passThroughCounter
-//        passThroughCounter += 1;
-//    }
-    //ALL OF THIS IS FROM PROJECT 4
-
 
     //EVALUATE EACH QUERY AND STORE IN STRING FOR OUTPUT -- SEE MAIN.CPP
     std::string queryOutput = "Query Evaluation\n";

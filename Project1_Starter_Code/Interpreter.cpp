@@ -108,6 +108,14 @@ std::string Interpreter::Interpret() {
     std::vector<int> reversePostorder = reverseGraph.getReversePostorder();
     graph.DFSForestPostorder(reversePostorder);
     std::vector<std::vector<int>> forest = graph.getForest();
+    std::vector<std::set<int>> forestSet;
+    for (std::vector<int> tree: forest) {
+        std::set<int> SCC;
+        for (size_t j = 0; j < tree.size(); j++) {
+            SCC.insert(tree.at(j));
+        }
+        forestSet.push_back(SCC);
+    }
 
     //some couting for output
     std::cout << graph.graphToString() << std::endl;
@@ -118,17 +126,20 @@ std::string Interpreter::Interpret() {
         std::cout << "SCC: ";
         std::string ruleList = "";
         std::vector<int> tree = forest.at(i);
+        std::set<int> SCC = forestSet.at(i);
 
         //some code for output format
-        for (size_t j = 0; j < tree.size(); j++) {
+        size_t m = 0;
+        for (int node : SCC) {
             ruleList.append("R");
-            ruleList.append(std::to_string(tree.at(j)));
-            if (j == tree.size() - 1) {
+            ruleList.append(std::to_string(node));
+            if (m == tree.size() - 1) {
                 ruleList.append("\n");
             }
             else {
                 ruleList.append(",");
             }
+            m++;
         }
         std::cout << ruleList;
 
@@ -143,13 +154,13 @@ std::string Interpreter::Interpret() {
         }
 
         if ( (tree.size() == 1) && !(selfDependent) ) {
-            for (size_t j = 0; j < tree.size(); j++) {
+            for (int node : SCC) {
                 //add rule to output
-                std::cout << rules.at(tree.at(j))->toString() << "\n";
+                std::cout << rules.at(node)->toString() << "\n";
 
                 //for each rule, evaluate the predicates on the right hand side
                 std::vector<Relation> relationsToJoin;
-                std::vector<Predicate*> currentPredicates = rules.at(tree.at(j))->getPredicates();
+                std::vector<Predicate*> currentPredicates = rules.at(node)->getPredicates();
                 for (size_t i = 0; i < currentPredicates.size(); i++) {
                     Predicate predicateToPass = *currentPredicates.at(i);
                     Relation resultingRelation = evaluatePredicate(predicateToPass);
@@ -164,7 +175,7 @@ std::string Interpreter::Interpret() {
 
                 //project the columns that appear in the head predicate
                 std::vector<int> indicesToProject;
-                Predicate ruleHeadPredicate = *(rules.at(tree.at(j))->getHeadPredicate());
+                Predicate ruleHeadPredicate = *(rules.at(node)->getHeadPredicate());
                 for (size_t i = 0; i < ruleHeadPredicate.getParameters().size(); i++) {
                     std::string lookFor = ruleHeadPredicate.getParameters().at(i)->toString();
                     for (size_t i = 0; i < joinedRelation.getHeader().getAttributes().size(); i++) {
@@ -183,6 +194,9 @@ std::string Interpreter::Interpret() {
 
                 //union with relation in DB
                 bool added = relationInDB->unionRelations(joinedRelation);
+                if (added) {
+
+                }
             }
             std::cout << "1" << " passes: " << ruleList;
         }
@@ -194,13 +208,13 @@ std::string Interpreter::Interpret() {
             while (continueToEvaluateRules) {
                 continueToEvaluateRules = false;
 
-                for (size_t j = 0; j < tree.size(); j++) {
+                for (int node : SCC) {
                     //add rule to output
-                    std::cout << rules.at(tree.at(j))->toString() << "\n";
+                    std::cout << rules.at(node)->toString() << "\n";
 
                     //for each rule, evaluate the predicates on the right hand side
                     std::vector<Relation> relationsToJoin;
-                    std::vector<Predicate*> currentPredicates = rules.at(tree.at(j))->getPredicates();
+                    std::vector<Predicate*> currentPredicates = rules.at(node)->getPredicates();
                     for (size_t i = 0; i < currentPredicates.size(); i++) {
                         Predicate predicateToPass = *currentPredicates.at(i);
                         Relation resultingRelation = evaluatePredicate(predicateToPass);
@@ -215,7 +229,7 @@ std::string Interpreter::Interpret() {
 
                     //project the columns that appear in the head predicate
                     std::vector<int> indicesToProject;
-                    Predicate ruleHeadPredicate = *(rules.at(tree.at(j))->getHeadPredicate());
+                    Predicate ruleHeadPredicate = *(rules.at(node)->getHeadPredicate());
                     for (size_t i = 0; i < ruleHeadPredicate.getParameters().size(); i++) {
                         std::string lookFor = ruleHeadPredicate.getParameters().at(i)->toString();
                         for (size_t i = 0; i < joinedRelation.getHeader().getAttributes().size(); i++) {

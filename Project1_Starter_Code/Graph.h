@@ -14,6 +14,7 @@ private:
     std::map<int, std::set<int>> reverseAdjacencyList;
     std::vector<bool> visited;
     std::vector<std::vector<int>> forest;
+    std::vector<int> postorder;
 
 public:
     Graph(std::vector<Rules*> rules);

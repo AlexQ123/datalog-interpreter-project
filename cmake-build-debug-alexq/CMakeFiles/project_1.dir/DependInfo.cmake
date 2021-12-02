@@ -4,31 +4,31 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Graph.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/LineComment.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/MatcherAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Rules.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/StringAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o"
-  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/BlockComment.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Database.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/DatalogProgram.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Graph.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Header.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/IDAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Interpreter.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Lexer.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/LineComment.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/MatcherAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parameter.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parser.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Predicate.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Relation.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Rules.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/StringAutomaton.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Token.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Tuple.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o"
+  "/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/main.cpp" "/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Project1_Starter_Code"
+  "../datalog-interpreter-code"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_PARSER_H
-#define PROJECT_1_PARSER_H
+#ifndef PARSER_H
+#define PARSER_H
 #include "Token.h"
 #include "Parameter.h"
 #include "Predicate.h"
@@ -71,4 +71,4 @@ public:
 
 };
 
-#endif //PROJECT_1_PARSER_H
+#endif

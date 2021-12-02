@@ -25,5 +25,5 @@ public:
 
 };
 
-#endif // LEXER_H
+#endif
 

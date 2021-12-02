@@ -123,518 +123,518 @@ project_1/fast:
 	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/build
 .PHONY : project_1/fast
 
-Project1_Starter_Code/BlockComment.o: Project1_Starter_Code/BlockComment.cpp.o
+datalog-interpreter-code/BlockComment.o: datalog-interpreter-code/BlockComment.cpp.o
 
-.PHONY : Project1_Starter_Code/BlockComment.o
-
-# target to build an object file
-Project1_Starter_Code/BlockComment.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o
-.PHONY : Project1_Starter_Code/BlockComment.cpp.o
-
-Project1_Starter_Code/BlockComment.i: Project1_Starter_Code/BlockComment.cpp.i
-
-.PHONY : Project1_Starter_Code/BlockComment.i
-
-# target to preprocess a source file
-Project1_Starter_Code/BlockComment.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.i
-.PHONY : Project1_Starter_Code/BlockComment.cpp.i
-
-Project1_Starter_Code/BlockComment.s: Project1_Starter_Code/BlockComment.cpp.s
-
-.PHONY : Project1_Starter_Code/BlockComment.s
-
-# target to generate assembly for a file
-Project1_Starter_Code/BlockComment.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.s
-.PHONY : Project1_Starter_Code/BlockComment.cpp.s
-
-Project1_Starter_Code/Database.o: Project1_Starter_Code/Database.cpp.o
-
-.PHONY : Project1_Starter_Code/Database.o
+.PHONY : datalog-interpreter-code/BlockComment.o
 
 # target to build an object file
-Project1_Starter_Code/Database.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o
-.PHONY : Project1_Starter_Code/Database.cpp.o
+datalog-interpreter-code/BlockComment.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o
+.PHONY : datalog-interpreter-code/BlockComment.cpp.o
 
-Project1_Starter_Code/Database.i: Project1_Starter_Code/Database.cpp.i
+datalog-interpreter-code/BlockComment.i: datalog-interpreter-code/BlockComment.cpp.i
 
-.PHONY : Project1_Starter_Code/Database.i
+.PHONY : datalog-interpreter-code/BlockComment.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Database.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.i
-.PHONY : Project1_Starter_Code/Database.cpp.i
+datalog-interpreter-code/BlockComment.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.i
+.PHONY : datalog-interpreter-code/BlockComment.cpp.i
 
-Project1_Starter_Code/Database.s: Project1_Starter_Code/Database.cpp.s
+datalog-interpreter-code/BlockComment.s: datalog-interpreter-code/BlockComment.cpp.s
 
-.PHONY : Project1_Starter_Code/Database.s
+.PHONY : datalog-interpreter-code/BlockComment.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Database.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.s
-.PHONY : Project1_Starter_Code/Database.cpp.s
+datalog-interpreter-code/BlockComment.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.s
+.PHONY : datalog-interpreter-code/BlockComment.cpp.s
 
-Project1_Starter_Code/DatalogProgram.o: Project1_Starter_Code/DatalogProgram.cpp.o
+datalog-interpreter-code/Database.o: datalog-interpreter-code/Database.cpp.o
 
-.PHONY : Project1_Starter_Code/DatalogProgram.o
+.PHONY : datalog-interpreter-code/Database.o
 
 # target to build an object file
-Project1_Starter_Code/DatalogProgram.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o
-.PHONY : Project1_Starter_Code/DatalogProgram.cpp.o
+datalog-interpreter-code/Database.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o
+.PHONY : datalog-interpreter-code/Database.cpp.o
 
-Project1_Starter_Code/DatalogProgram.i: Project1_Starter_Code/DatalogProgram.cpp.i
+datalog-interpreter-code/Database.i: datalog-interpreter-code/Database.cpp.i
 
-.PHONY : Project1_Starter_Code/DatalogProgram.i
+.PHONY : datalog-interpreter-code/Database.i
 
 # target to preprocess a source file
-Project1_Starter_Code/DatalogProgram.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.i
-.PHONY : Project1_Starter_Code/DatalogProgram.cpp.i
+datalog-interpreter-code/Database.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.i
+.PHONY : datalog-interpreter-code/Database.cpp.i
 
-Project1_Starter_Code/DatalogProgram.s: Project1_Starter_Code/DatalogProgram.cpp.s
+datalog-interpreter-code/Database.s: datalog-interpreter-code/Database.cpp.s
 
-.PHONY : Project1_Starter_Code/DatalogProgram.s
+.PHONY : datalog-interpreter-code/Database.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/DatalogProgram.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s
-.PHONY : Project1_Starter_Code/DatalogProgram.cpp.s
+datalog-interpreter-code/Database.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.s
+.PHONY : datalog-interpreter-code/Database.cpp.s
 
-Project1_Starter_Code/Graph.o: Project1_Starter_Code/Graph.cpp.o
+datalog-interpreter-code/DatalogProgram.o: datalog-interpreter-code/DatalogProgram.cpp.o
 
-.PHONY : Project1_Starter_Code/Graph.o
+.PHONY : datalog-interpreter-code/DatalogProgram.o
 
 # target to build an object file
-Project1_Starter_Code/Graph.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o
-.PHONY : Project1_Starter_Code/Graph.cpp.o
+datalog-interpreter-code/DatalogProgram.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o
+.PHONY : datalog-interpreter-code/DatalogProgram.cpp.o
 
-Project1_Starter_Code/Graph.i: Project1_Starter_Code/Graph.cpp.i
+datalog-interpreter-code/DatalogProgram.i: datalog-interpreter-code/DatalogProgram.cpp.i
 
-.PHONY : Project1_Starter_Code/Graph.i
+.PHONY : datalog-interpreter-code/DatalogProgram.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Graph.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.i
-.PHONY : Project1_Starter_Code/Graph.cpp.i
+datalog-interpreter-code/DatalogProgram.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.i
+.PHONY : datalog-interpreter-code/DatalogProgram.cpp.i
 
-Project1_Starter_Code/Graph.s: Project1_Starter_Code/Graph.cpp.s
+datalog-interpreter-code/DatalogProgram.s: datalog-interpreter-code/DatalogProgram.cpp.s
 
-.PHONY : Project1_Starter_Code/Graph.s
+.PHONY : datalog-interpreter-code/DatalogProgram.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Graph.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.s
-.PHONY : Project1_Starter_Code/Graph.cpp.s
+datalog-interpreter-code/DatalogProgram.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.s
+.PHONY : datalog-interpreter-code/DatalogProgram.cpp.s
 
-Project1_Starter_Code/Header.o: Project1_Starter_Code/Header.cpp.o
+datalog-interpreter-code/Graph.o: datalog-interpreter-code/Graph.cpp.o
 
-.PHONY : Project1_Starter_Code/Header.o
+.PHONY : datalog-interpreter-code/Graph.o
 
 # target to build an object file
-Project1_Starter_Code/Header.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o
-.PHONY : Project1_Starter_Code/Header.cpp.o
+datalog-interpreter-code/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o
+.PHONY : datalog-interpreter-code/Graph.cpp.o
 
-Project1_Starter_Code/Header.i: Project1_Starter_Code/Header.cpp.i
+datalog-interpreter-code/Graph.i: datalog-interpreter-code/Graph.cpp.i
 
-.PHONY : Project1_Starter_Code/Header.i
+.PHONY : datalog-interpreter-code/Graph.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Header.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.i
-.PHONY : Project1_Starter_Code/Header.cpp.i
+datalog-interpreter-code/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.i
+.PHONY : datalog-interpreter-code/Graph.cpp.i
 
-Project1_Starter_Code/Header.s: Project1_Starter_Code/Header.cpp.s
+datalog-interpreter-code/Graph.s: datalog-interpreter-code/Graph.cpp.s
 
-.PHONY : Project1_Starter_Code/Header.s
+.PHONY : datalog-interpreter-code/Graph.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Header.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.s
-.PHONY : Project1_Starter_Code/Header.cpp.s
+datalog-interpreter-code/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.s
+.PHONY : datalog-interpreter-code/Graph.cpp.s
 
-Project1_Starter_Code/IDAutomaton.o: Project1_Starter_Code/IDAutomaton.cpp.o
+datalog-interpreter-code/Header.o: datalog-interpreter-code/Header.cpp.o
 
-.PHONY : Project1_Starter_Code/IDAutomaton.o
+.PHONY : datalog-interpreter-code/Header.o
 
 # target to build an object file
-Project1_Starter_Code/IDAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o
-.PHONY : Project1_Starter_Code/IDAutomaton.cpp.o
+datalog-interpreter-code/Header.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o
+.PHONY : datalog-interpreter-code/Header.cpp.o
 
-Project1_Starter_Code/IDAutomaton.i: Project1_Starter_Code/IDAutomaton.cpp.i
+datalog-interpreter-code/Header.i: datalog-interpreter-code/Header.cpp.i
 
-.PHONY : Project1_Starter_Code/IDAutomaton.i
+.PHONY : datalog-interpreter-code/Header.i
 
 # target to preprocess a source file
-Project1_Starter_Code/IDAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.i
-.PHONY : Project1_Starter_Code/IDAutomaton.cpp.i
+datalog-interpreter-code/Header.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.i
+.PHONY : datalog-interpreter-code/Header.cpp.i
 
-Project1_Starter_Code/IDAutomaton.s: Project1_Starter_Code/IDAutomaton.cpp.s
+datalog-interpreter-code/Header.s: datalog-interpreter-code/Header.cpp.s
 
-.PHONY : Project1_Starter_Code/IDAutomaton.s
+.PHONY : datalog-interpreter-code/Header.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/IDAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.s
-.PHONY : Project1_Starter_Code/IDAutomaton.cpp.s
+datalog-interpreter-code/Header.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.s
+.PHONY : datalog-interpreter-code/Header.cpp.s
 
-Project1_Starter_Code/Interpreter.o: Project1_Starter_Code/Interpreter.cpp.o
+datalog-interpreter-code/IDAutomaton.o: datalog-interpreter-code/IDAutomaton.cpp.o
 
-.PHONY : Project1_Starter_Code/Interpreter.o
+.PHONY : datalog-interpreter-code/IDAutomaton.o
 
 # target to build an object file
-Project1_Starter_Code/Interpreter.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o
-.PHONY : Project1_Starter_Code/Interpreter.cpp.o
+datalog-interpreter-code/IDAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o
+.PHONY : datalog-interpreter-code/IDAutomaton.cpp.o
 
-Project1_Starter_Code/Interpreter.i: Project1_Starter_Code/Interpreter.cpp.i
+datalog-interpreter-code/IDAutomaton.i: datalog-interpreter-code/IDAutomaton.cpp.i
 
-.PHONY : Project1_Starter_Code/Interpreter.i
+.PHONY : datalog-interpreter-code/IDAutomaton.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Interpreter.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.i
-.PHONY : Project1_Starter_Code/Interpreter.cpp.i
+datalog-interpreter-code/IDAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.i
+.PHONY : datalog-interpreter-code/IDAutomaton.cpp.i
 
-Project1_Starter_Code/Interpreter.s: Project1_Starter_Code/Interpreter.cpp.s
+datalog-interpreter-code/IDAutomaton.s: datalog-interpreter-code/IDAutomaton.cpp.s
 
-.PHONY : Project1_Starter_Code/Interpreter.s
+.PHONY : datalog-interpreter-code/IDAutomaton.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Interpreter.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.s
-.PHONY : Project1_Starter_Code/Interpreter.cpp.s
+datalog-interpreter-code/IDAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.s
+.PHONY : datalog-interpreter-code/IDAutomaton.cpp.s
 
-Project1_Starter_Code/Lexer.o: Project1_Starter_Code/Lexer.cpp.o
+datalog-interpreter-code/Interpreter.o: datalog-interpreter-code/Interpreter.cpp.o
 
-.PHONY : Project1_Starter_Code/Lexer.o
+.PHONY : datalog-interpreter-code/Interpreter.o
 
 # target to build an object file
-Project1_Starter_Code/Lexer.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o
-.PHONY : Project1_Starter_Code/Lexer.cpp.o
+datalog-interpreter-code/Interpreter.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o
+.PHONY : datalog-interpreter-code/Interpreter.cpp.o
 
-Project1_Starter_Code/Lexer.i: Project1_Starter_Code/Lexer.cpp.i
+datalog-interpreter-code/Interpreter.i: datalog-interpreter-code/Interpreter.cpp.i
 
-.PHONY : Project1_Starter_Code/Lexer.i
+.PHONY : datalog-interpreter-code/Interpreter.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Lexer.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.i
-.PHONY : Project1_Starter_Code/Lexer.cpp.i
+datalog-interpreter-code/Interpreter.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.i
+.PHONY : datalog-interpreter-code/Interpreter.cpp.i
 
-Project1_Starter_Code/Lexer.s: Project1_Starter_Code/Lexer.cpp.s
+datalog-interpreter-code/Interpreter.s: datalog-interpreter-code/Interpreter.cpp.s
 
-.PHONY : Project1_Starter_Code/Lexer.s
+.PHONY : datalog-interpreter-code/Interpreter.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Lexer.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.s
-.PHONY : Project1_Starter_Code/Lexer.cpp.s
+datalog-interpreter-code/Interpreter.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.s
+.PHONY : datalog-interpreter-code/Interpreter.cpp.s
 
-Project1_Starter_Code/LineComment.o: Project1_Starter_Code/LineComment.cpp.o
+datalog-interpreter-code/Lexer.o: datalog-interpreter-code/Lexer.cpp.o
 
-.PHONY : Project1_Starter_Code/LineComment.o
+.PHONY : datalog-interpreter-code/Lexer.o
 
 # target to build an object file
-Project1_Starter_Code/LineComment.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o
-.PHONY : Project1_Starter_Code/LineComment.cpp.o
+datalog-interpreter-code/Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o
+.PHONY : datalog-interpreter-code/Lexer.cpp.o
 
-Project1_Starter_Code/LineComment.i: Project1_Starter_Code/LineComment.cpp.i
+datalog-interpreter-code/Lexer.i: datalog-interpreter-code/Lexer.cpp.i
 
-.PHONY : Project1_Starter_Code/LineComment.i
+.PHONY : datalog-interpreter-code/Lexer.i
 
 # target to preprocess a source file
-Project1_Starter_Code/LineComment.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.i
-.PHONY : Project1_Starter_Code/LineComment.cpp.i
+datalog-interpreter-code/Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.i
+.PHONY : datalog-interpreter-code/Lexer.cpp.i
 
-Project1_Starter_Code/LineComment.s: Project1_Starter_Code/LineComment.cpp.s
+datalog-interpreter-code/Lexer.s: datalog-interpreter-code/Lexer.cpp.s
 
-.PHONY : Project1_Starter_Code/LineComment.s
+.PHONY : datalog-interpreter-code/Lexer.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/LineComment.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.s
-.PHONY : Project1_Starter_Code/LineComment.cpp.s
+datalog-interpreter-code/Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.s
+.PHONY : datalog-interpreter-code/Lexer.cpp.s
 
-Project1_Starter_Code/MatcherAutomaton.o: Project1_Starter_Code/MatcherAutomaton.cpp.o
+datalog-interpreter-code/LineComment.o: datalog-interpreter-code/LineComment.cpp.o
 
-.PHONY : Project1_Starter_Code/MatcherAutomaton.o
+.PHONY : datalog-interpreter-code/LineComment.o
 
 # target to build an object file
-Project1_Starter_Code/MatcherAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o
-.PHONY : Project1_Starter_Code/MatcherAutomaton.cpp.o
+datalog-interpreter-code/LineComment.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o
+.PHONY : datalog-interpreter-code/LineComment.cpp.o
 
-Project1_Starter_Code/MatcherAutomaton.i: Project1_Starter_Code/MatcherAutomaton.cpp.i
+datalog-interpreter-code/LineComment.i: datalog-interpreter-code/LineComment.cpp.i
 
-.PHONY : Project1_Starter_Code/MatcherAutomaton.i
+.PHONY : datalog-interpreter-code/LineComment.i
 
 # target to preprocess a source file
-Project1_Starter_Code/MatcherAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.i
-.PHONY : Project1_Starter_Code/MatcherAutomaton.cpp.i
+datalog-interpreter-code/LineComment.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.i
+.PHONY : datalog-interpreter-code/LineComment.cpp.i
 
-Project1_Starter_Code/MatcherAutomaton.s: Project1_Starter_Code/MatcherAutomaton.cpp.s
+datalog-interpreter-code/LineComment.s: datalog-interpreter-code/LineComment.cpp.s
 
-.PHONY : Project1_Starter_Code/MatcherAutomaton.s
+.PHONY : datalog-interpreter-code/LineComment.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/MatcherAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.s
-.PHONY : Project1_Starter_Code/MatcherAutomaton.cpp.s
+datalog-interpreter-code/LineComment.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.s
+.PHONY : datalog-interpreter-code/LineComment.cpp.s
 
-Project1_Starter_Code/Parameter.o: Project1_Starter_Code/Parameter.cpp.o
+datalog-interpreter-code/MatcherAutomaton.o: datalog-interpreter-code/MatcherAutomaton.cpp.o
 
-.PHONY : Project1_Starter_Code/Parameter.o
+.PHONY : datalog-interpreter-code/MatcherAutomaton.o
 
 # target to build an object file
-Project1_Starter_Code/Parameter.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o
-.PHONY : Project1_Starter_Code/Parameter.cpp.o
+datalog-interpreter-code/MatcherAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o
+.PHONY : datalog-interpreter-code/MatcherAutomaton.cpp.o
 
-Project1_Starter_Code/Parameter.i: Project1_Starter_Code/Parameter.cpp.i
+datalog-interpreter-code/MatcherAutomaton.i: datalog-interpreter-code/MatcherAutomaton.cpp.i
 
-.PHONY : Project1_Starter_Code/Parameter.i
+.PHONY : datalog-interpreter-code/MatcherAutomaton.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Parameter.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.i
-.PHONY : Project1_Starter_Code/Parameter.cpp.i
+datalog-interpreter-code/MatcherAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.i
+.PHONY : datalog-interpreter-code/MatcherAutomaton.cpp.i
 
-Project1_Starter_Code/Parameter.s: Project1_Starter_Code/Parameter.cpp.s
+datalog-interpreter-code/MatcherAutomaton.s: datalog-interpreter-code/MatcherAutomaton.cpp.s
 
-.PHONY : Project1_Starter_Code/Parameter.s
+.PHONY : datalog-interpreter-code/MatcherAutomaton.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Parameter.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.s
-.PHONY : Project1_Starter_Code/Parameter.cpp.s
+datalog-interpreter-code/MatcherAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.s
+.PHONY : datalog-interpreter-code/MatcherAutomaton.cpp.s
 
-Project1_Starter_Code/Parser.o: Project1_Starter_Code/Parser.cpp.o
+datalog-interpreter-code/Parameter.o: datalog-interpreter-code/Parameter.cpp.o
 
-.PHONY : Project1_Starter_Code/Parser.o
+.PHONY : datalog-interpreter-code/Parameter.o
 
 # target to build an object file
-Project1_Starter_Code/Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o
-.PHONY : Project1_Starter_Code/Parser.cpp.o
+datalog-interpreter-code/Parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o
+.PHONY : datalog-interpreter-code/Parameter.cpp.o
 
-Project1_Starter_Code/Parser.i: Project1_Starter_Code/Parser.cpp.i
+datalog-interpreter-code/Parameter.i: datalog-interpreter-code/Parameter.cpp.i
 
-.PHONY : Project1_Starter_Code/Parser.i
+.PHONY : datalog-interpreter-code/Parameter.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.i
-.PHONY : Project1_Starter_Code/Parser.cpp.i
+datalog-interpreter-code/Parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.i
+.PHONY : datalog-interpreter-code/Parameter.cpp.i
 
-Project1_Starter_Code/Parser.s: Project1_Starter_Code/Parser.cpp.s
+datalog-interpreter-code/Parameter.s: datalog-interpreter-code/Parameter.cpp.s
 
-.PHONY : Project1_Starter_Code/Parser.s
+.PHONY : datalog-interpreter-code/Parameter.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.s
-.PHONY : Project1_Starter_Code/Parser.cpp.s
+datalog-interpreter-code/Parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.s
+.PHONY : datalog-interpreter-code/Parameter.cpp.s
 
-Project1_Starter_Code/Predicate.o: Project1_Starter_Code/Predicate.cpp.o
+datalog-interpreter-code/Parser.o: datalog-interpreter-code/Parser.cpp.o
 
-.PHONY : Project1_Starter_Code/Predicate.o
+.PHONY : datalog-interpreter-code/Parser.o
 
 # target to build an object file
-Project1_Starter_Code/Predicate.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o
-.PHONY : Project1_Starter_Code/Predicate.cpp.o
+datalog-interpreter-code/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o
+.PHONY : datalog-interpreter-code/Parser.cpp.o
 
-Project1_Starter_Code/Predicate.i: Project1_Starter_Code/Predicate.cpp.i
+datalog-interpreter-code/Parser.i: datalog-interpreter-code/Parser.cpp.i
 
-.PHONY : Project1_Starter_Code/Predicate.i
+.PHONY : datalog-interpreter-code/Parser.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Predicate.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.i
-.PHONY : Project1_Starter_Code/Predicate.cpp.i
+datalog-interpreter-code/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.i
+.PHONY : datalog-interpreter-code/Parser.cpp.i
 
-Project1_Starter_Code/Predicate.s: Project1_Starter_Code/Predicate.cpp.s
+datalog-interpreter-code/Parser.s: datalog-interpreter-code/Parser.cpp.s
 
-.PHONY : Project1_Starter_Code/Predicate.s
+.PHONY : datalog-interpreter-code/Parser.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Predicate.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.s
-.PHONY : Project1_Starter_Code/Predicate.cpp.s
+datalog-interpreter-code/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.s
+.PHONY : datalog-interpreter-code/Parser.cpp.s
 
-Project1_Starter_Code/Relation.o: Project1_Starter_Code/Relation.cpp.o
+datalog-interpreter-code/Predicate.o: datalog-interpreter-code/Predicate.cpp.o
 
-.PHONY : Project1_Starter_Code/Relation.o
+.PHONY : datalog-interpreter-code/Predicate.o
 
 # target to build an object file
-Project1_Starter_Code/Relation.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o
-.PHONY : Project1_Starter_Code/Relation.cpp.o
+datalog-interpreter-code/Predicate.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o
+.PHONY : datalog-interpreter-code/Predicate.cpp.o
 
-Project1_Starter_Code/Relation.i: Project1_Starter_Code/Relation.cpp.i
+datalog-interpreter-code/Predicate.i: datalog-interpreter-code/Predicate.cpp.i
 
-.PHONY : Project1_Starter_Code/Relation.i
+.PHONY : datalog-interpreter-code/Predicate.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Relation.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.i
-.PHONY : Project1_Starter_Code/Relation.cpp.i
+datalog-interpreter-code/Predicate.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.i
+.PHONY : datalog-interpreter-code/Predicate.cpp.i
 
-Project1_Starter_Code/Relation.s: Project1_Starter_Code/Relation.cpp.s
+datalog-interpreter-code/Predicate.s: datalog-interpreter-code/Predicate.cpp.s
 
-.PHONY : Project1_Starter_Code/Relation.s
+.PHONY : datalog-interpreter-code/Predicate.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Relation.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.s
-.PHONY : Project1_Starter_Code/Relation.cpp.s
+datalog-interpreter-code/Predicate.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.s
+.PHONY : datalog-interpreter-code/Predicate.cpp.s
 
-Project1_Starter_Code/Rules.o: Project1_Starter_Code/Rules.cpp.o
+datalog-interpreter-code/Relation.o: datalog-interpreter-code/Relation.cpp.o
 
-.PHONY : Project1_Starter_Code/Rules.o
+.PHONY : datalog-interpreter-code/Relation.o
 
 # target to build an object file
-Project1_Starter_Code/Rules.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o
-.PHONY : Project1_Starter_Code/Rules.cpp.o
+datalog-interpreter-code/Relation.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o
+.PHONY : datalog-interpreter-code/Relation.cpp.o
 
-Project1_Starter_Code/Rules.i: Project1_Starter_Code/Rules.cpp.i
+datalog-interpreter-code/Relation.i: datalog-interpreter-code/Relation.cpp.i
 
-.PHONY : Project1_Starter_Code/Rules.i
+.PHONY : datalog-interpreter-code/Relation.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Rules.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.i
-.PHONY : Project1_Starter_Code/Rules.cpp.i
+datalog-interpreter-code/Relation.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.i
+.PHONY : datalog-interpreter-code/Relation.cpp.i
 
-Project1_Starter_Code/Rules.s: Project1_Starter_Code/Rules.cpp.s
+datalog-interpreter-code/Relation.s: datalog-interpreter-code/Relation.cpp.s
 
-.PHONY : Project1_Starter_Code/Rules.s
+.PHONY : datalog-interpreter-code/Relation.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Rules.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.s
-.PHONY : Project1_Starter_Code/Rules.cpp.s
+datalog-interpreter-code/Relation.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.s
+.PHONY : datalog-interpreter-code/Relation.cpp.s
 
-Project1_Starter_Code/StringAutomaton.o: Project1_Starter_Code/StringAutomaton.cpp.o
+datalog-interpreter-code/Rules.o: datalog-interpreter-code/Rules.cpp.o
 
-.PHONY : Project1_Starter_Code/StringAutomaton.o
+.PHONY : datalog-interpreter-code/Rules.o
 
 # target to build an object file
-Project1_Starter_Code/StringAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o
-.PHONY : Project1_Starter_Code/StringAutomaton.cpp.o
+datalog-interpreter-code/Rules.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o
+.PHONY : datalog-interpreter-code/Rules.cpp.o
 
-Project1_Starter_Code/StringAutomaton.i: Project1_Starter_Code/StringAutomaton.cpp.i
+datalog-interpreter-code/Rules.i: datalog-interpreter-code/Rules.cpp.i
 
-.PHONY : Project1_Starter_Code/StringAutomaton.i
+.PHONY : datalog-interpreter-code/Rules.i
 
 # target to preprocess a source file
-Project1_Starter_Code/StringAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.i
-.PHONY : Project1_Starter_Code/StringAutomaton.cpp.i
+datalog-interpreter-code/Rules.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.i
+.PHONY : datalog-interpreter-code/Rules.cpp.i
 
-Project1_Starter_Code/StringAutomaton.s: Project1_Starter_Code/StringAutomaton.cpp.s
+datalog-interpreter-code/Rules.s: datalog-interpreter-code/Rules.cpp.s
 
-.PHONY : Project1_Starter_Code/StringAutomaton.s
+.PHONY : datalog-interpreter-code/Rules.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/StringAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.s
-.PHONY : Project1_Starter_Code/StringAutomaton.cpp.s
+datalog-interpreter-code/Rules.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.s
+.PHONY : datalog-interpreter-code/Rules.cpp.s
 
-Project1_Starter_Code/Token.o: Project1_Starter_Code/Token.cpp.o
+datalog-interpreter-code/StringAutomaton.o: datalog-interpreter-code/StringAutomaton.cpp.o
 
-.PHONY : Project1_Starter_Code/Token.o
+.PHONY : datalog-interpreter-code/StringAutomaton.o
 
 # target to build an object file
-Project1_Starter_Code/Token.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o
-.PHONY : Project1_Starter_Code/Token.cpp.o
+datalog-interpreter-code/StringAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o
+.PHONY : datalog-interpreter-code/StringAutomaton.cpp.o
 
-Project1_Starter_Code/Token.i: Project1_Starter_Code/Token.cpp.i
+datalog-interpreter-code/StringAutomaton.i: datalog-interpreter-code/StringAutomaton.cpp.i
 
-.PHONY : Project1_Starter_Code/Token.i
+.PHONY : datalog-interpreter-code/StringAutomaton.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Token.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.i
-.PHONY : Project1_Starter_Code/Token.cpp.i
+datalog-interpreter-code/StringAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.i
+.PHONY : datalog-interpreter-code/StringAutomaton.cpp.i
 
-Project1_Starter_Code/Token.s: Project1_Starter_Code/Token.cpp.s
+datalog-interpreter-code/StringAutomaton.s: datalog-interpreter-code/StringAutomaton.cpp.s
 
-.PHONY : Project1_Starter_Code/Token.s
+.PHONY : datalog-interpreter-code/StringAutomaton.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Token.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.s
-.PHONY : Project1_Starter_Code/Token.cpp.s
+datalog-interpreter-code/StringAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.s
+.PHONY : datalog-interpreter-code/StringAutomaton.cpp.s
 
-Project1_Starter_Code/Tuple.o: Project1_Starter_Code/Tuple.cpp.o
+datalog-interpreter-code/Token.o: datalog-interpreter-code/Token.cpp.o
 
-.PHONY : Project1_Starter_Code/Tuple.o
+.PHONY : datalog-interpreter-code/Token.o
 
 # target to build an object file
-Project1_Starter_Code/Tuple.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o
-.PHONY : Project1_Starter_Code/Tuple.cpp.o
+datalog-interpreter-code/Token.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o
+.PHONY : datalog-interpreter-code/Token.cpp.o
 
-Project1_Starter_Code/Tuple.i: Project1_Starter_Code/Tuple.cpp.i
+datalog-interpreter-code/Token.i: datalog-interpreter-code/Token.cpp.i
 
-.PHONY : Project1_Starter_Code/Tuple.i
+.PHONY : datalog-interpreter-code/Token.i
 
 # target to preprocess a source file
-Project1_Starter_Code/Tuple.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.i
-.PHONY : Project1_Starter_Code/Tuple.cpp.i
+datalog-interpreter-code/Token.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.i
+.PHONY : datalog-interpreter-code/Token.cpp.i
 
-Project1_Starter_Code/Tuple.s: Project1_Starter_Code/Tuple.cpp.s
+datalog-interpreter-code/Token.s: datalog-interpreter-code/Token.cpp.s
 
-.PHONY : Project1_Starter_Code/Tuple.s
+.PHONY : datalog-interpreter-code/Token.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/Tuple.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.s
-.PHONY : Project1_Starter_Code/Tuple.cpp.s
+datalog-interpreter-code/Token.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.s
+.PHONY : datalog-interpreter-code/Token.cpp.s
 
-Project1_Starter_Code/main.o: Project1_Starter_Code/main.cpp.o
+datalog-interpreter-code/Tuple.o: datalog-interpreter-code/Tuple.cpp.o
 
-.PHONY : Project1_Starter_Code/main.o
+.PHONY : datalog-interpreter-code/Tuple.o
 
 # target to build an object file
-Project1_Starter_Code/main.cpp.o:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o
-.PHONY : Project1_Starter_Code/main.cpp.o
+datalog-interpreter-code/Tuple.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o
+.PHONY : datalog-interpreter-code/Tuple.cpp.o
 
-Project1_Starter_Code/main.i: Project1_Starter_Code/main.cpp.i
+datalog-interpreter-code/Tuple.i: datalog-interpreter-code/Tuple.cpp.i
 
-.PHONY : Project1_Starter_Code/main.i
+.PHONY : datalog-interpreter-code/Tuple.i
 
 # target to preprocess a source file
-Project1_Starter_Code/main.cpp.i:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.i
-.PHONY : Project1_Starter_Code/main.cpp.i
+datalog-interpreter-code/Tuple.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.i
+.PHONY : datalog-interpreter-code/Tuple.cpp.i
 
-Project1_Starter_Code/main.s: Project1_Starter_Code/main.cpp.s
+datalog-interpreter-code/Tuple.s: datalog-interpreter-code/Tuple.cpp.s
 
-.PHONY : Project1_Starter_Code/main.s
+.PHONY : datalog-interpreter-code/Tuple.s
 
 # target to generate assembly for a file
-Project1_Starter_Code/main.cpp.s:
-	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.s
-.PHONY : Project1_Starter_Code/main.cpp.s
+datalog-interpreter-code/Tuple.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.s
+.PHONY : datalog-interpreter-code/Tuple.cpp.s
+
+datalog-interpreter-code/main.o: datalog-interpreter-code/main.cpp.o
+
+.PHONY : datalog-interpreter-code/main.o
+
+# target to build an object file
+datalog-interpreter-code/main.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o
+.PHONY : datalog-interpreter-code/main.cpp.o
+
+datalog-interpreter-code/main.i: datalog-interpreter-code/main.cpp.i
+
+.PHONY : datalog-interpreter-code/main.i
+
+# target to preprocess a source file
+datalog-interpreter-code/main.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.i
+.PHONY : datalog-interpreter-code/main.cpp.i
+
+datalog-interpreter-code/main.s: datalog-interpreter-code/main.cpp.s
+
+.PHONY : datalog-interpreter-code/main.s
+
+# target to generate assembly for a file
+datalog-interpreter-code/main.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.s
+.PHONY : datalog-interpreter-code/main.cpp.s
 
 # Help Target
 help:
@@ -645,63 +645,63 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project_1"
-	@echo "... Project1_Starter_Code/BlockComment.o"
-	@echo "... Project1_Starter_Code/BlockComment.i"
-	@echo "... Project1_Starter_Code/BlockComment.s"
-	@echo "... Project1_Starter_Code/Database.o"
-	@echo "... Project1_Starter_Code/Database.i"
-	@echo "... Project1_Starter_Code/Database.s"
-	@echo "... Project1_Starter_Code/DatalogProgram.o"
-	@echo "... Project1_Starter_Code/DatalogProgram.i"
-	@echo "... Project1_Starter_Code/DatalogProgram.s"
-	@echo "... Project1_Starter_Code/Graph.o"
-	@echo "... Project1_Starter_Code/Graph.i"
-	@echo "... Project1_Starter_Code/Graph.s"
-	@echo "... Project1_Starter_Code/Header.o"
-	@echo "... Project1_Starter_Code/Header.i"
-	@echo "... Project1_Starter_Code/Header.s"
-	@echo "... Project1_Starter_Code/IDAutomaton.o"
-	@echo "... Project1_Starter_Code/IDAutomaton.i"
-	@echo "... Project1_Starter_Code/IDAutomaton.s"
-	@echo "... Project1_Starter_Code/Interpreter.o"
-	@echo "... Project1_Starter_Code/Interpreter.i"
-	@echo "... Project1_Starter_Code/Interpreter.s"
-	@echo "... Project1_Starter_Code/Lexer.o"
-	@echo "... Project1_Starter_Code/Lexer.i"
-	@echo "... Project1_Starter_Code/Lexer.s"
-	@echo "... Project1_Starter_Code/LineComment.o"
-	@echo "... Project1_Starter_Code/LineComment.i"
-	@echo "... Project1_Starter_Code/LineComment.s"
-	@echo "... Project1_Starter_Code/MatcherAutomaton.o"
-	@echo "... Project1_Starter_Code/MatcherAutomaton.i"
-	@echo "... Project1_Starter_Code/MatcherAutomaton.s"
-	@echo "... Project1_Starter_Code/Parameter.o"
-	@echo "... Project1_Starter_Code/Parameter.i"
-	@echo "... Project1_Starter_Code/Parameter.s"
-	@echo "... Project1_Starter_Code/Parser.o"
-	@echo "... Project1_Starter_Code/Parser.i"
-	@echo "... Project1_Starter_Code/Parser.s"
-	@echo "... Project1_Starter_Code/Predicate.o"
-	@echo "... Project1_Starter_Code/Predicate.i"
-	@echo "... Project1_Starter_Code/Predicate.s"
-	@echo "... Project1_Starter_Code/Relation.o"
-	@echo "... Project1_Starter_Code/Relation.i"
-	@echo "... Project1_Starter_Code/Relation.s"
-	@echo "... Project1_Starter_Code/Rules.o"
-	@echo "... Project1_Starter_Code/Rules.i"
-	@echo "... Project1_Starter_Code/Rules.s"
-	@echo "... Project1_Starter_Code/StringAutomaton.o"
-	@echo "... Project1_Starter_Code/StringAutomaton.i"
-	@echo "... Project1_Starter_Code/StringAutomaton.s"
-	@echo "... Project1_Starter_Code/Token.o"
-	@echo "... Project1_Starter_Code/Token.i"
-	@echo "... Project1_Starter_Code/Token.s"
-	@echo "... Project1_Starter_Code/Tuple.o"
-	@echo "... Project1_Starter_Code/Tuple.i"
-	@echo "... Project1_Starter_Code/Tuple.s"
-	@echo "... Project1_Starter_Code/main.o"
-	@echo "... Project1_Starter_Code/main.i"
-	@echo "... Project1_Starter_Code/main.s"
+	@echo "... datalog-interpreter-code/BlockComment.o"
+	@echo "... datalog-interpreter-code/BlockComment.i"
+	@echo "... datalog-interpreter-code/BlockComment.s"
+	@echo "... datalog-interpreter-code/Database.o"
+	@echo "... datalog-interpreter-code/Database.i"
+	@echo "... datalog-interpreter-code/Database.s"
+	@echo "... datalog-interpreter-code/DatalogProgram.o"
+	@echo "... datalog-interpreter-code/DatalogProgram.i"
+	@echo "... datalog-interpreter-code/DatalogProgram.s"
+	@echo "... datalog-interpreter-code/Graph.o"
+	@echo "... datalog-interpreter-code/Graph.i"
+	@echo "... datalog-interpreter-code/Graph.s"
+	@echo "... datalog-interpreter-code/Header.o"
+	@echo "... datalog-interpreter-code/Header.i"
+	@echo "... datalog-interpreter-code/Header.s"
+	@echo "... datalog-interpreter-code/IDAutomaton.o"
+	@echo "... datalog-interpreter-code/IDAutomaton.i"
+	@echo "... datalog-interpreter-code/IDAutomaton.s"
+	@echo "... datalog-interpreter-code/Interpreter.o"
+	@echo "... datalog-interpreter-code/Interpreter.i"
+	@echo "... datalog-interpreter-code/Interpreter.s"
+	@echo "... datalog-interpreter-code/Lexer.o"
+	@echo "... datalog-interpreter-code/Lexer.i"
+	@echo "... datalog-interpreter-code/Lexer.s"
+	@echo "... datalog-interpreter-code/LineComment.o"
+	@echo "... datalog-interpreter-code/LineComment.i"
+	@echo "... datalog-interpreter-code/LineComment.s"
+	@echo "... datalog-interpreter-code/MatcherAutomaton.o"
+	@echo "... datalog-interpreter-code/MatcherAutomaton.i"
+	@echo "... datalog-interpreter-code/MatcherAutomaton.s"
+	@echo "... datalog-interpreter-code/Parameter.o"
+	@echo "... datalog-interpreter-code/Parameter.i"
+	@echo "... datalog-interpreter-code/Parameter.s"
+	@echo "... datalog-interpreter-code/Parser.o"
+	@echo "... datalog-interpreter-code/Parser.i"
+	@echo "... datalog-interpreter-code/Parser.s"
+	@echo "... datalog-interpreter-code/Predicate.o"
+	@echo "... datalog-interpreter-code/Predicate.i"
+	@echo "... datalog-interpreter-code/Predicate.s"
+	@echo "... datalog-interpreter-code/Relation.o"
+	@echo "... datalog-interpreter-code/Relation.i"
+	@echo "... datalog-interpreter-code/Relation.s"
+	@echo "... datalog-interpreter-code/Rules.o"
+	@echo "... datalog-interpreter-code/Rules.i"
+	@echo "... datalog-interpreter-code/Rules.s"
+	@echo "... datalog-interpreter-code/StringAutomaton.o"
+	@echo "... datalog-interpreter-code/StringAutomaton.i"
+	@echo "... datalog-interpreter-code/StringAutomaton.s"
+	@echo "... datalog-interpreter-code/Token.o"
+	@echo "... datalog-interpreter-code/Token.i"
+	@echo "... datalog-interpreter-code/Token.s"
+	@echo "... datalog-interpreter-code/Tuple.o"
+	@echo "... datalog-interpreter-code/Tuple.i"
+	@echo "... datalog-interpreter-code/Tuple.s"
+	@echo "... datalog-interpreter-code/main.o"
+	@echo "... datalog-interpreter-code/main.i"
+	@echo "... datalog-interpreter-code/main.s"
 .PHONY : help
 
 

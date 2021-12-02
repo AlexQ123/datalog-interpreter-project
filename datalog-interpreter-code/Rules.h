@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_RULES_H
-#define PROJECT_1_RULES_H
+#ifndef RULES_H
+#define RULES_H
 #include "Predicate.h"
 #include <vector>
 
@@ -20,4 +20,4 @@ public:
     std::vector<Predicate*> getPredicates();
 };
 
-#endif //PROJECT_1_RULES_H
+#endif

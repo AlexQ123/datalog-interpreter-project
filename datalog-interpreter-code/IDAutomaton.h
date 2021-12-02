@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_IDAUTOMATON_H
-#define PROJECT_1_IDAUTOMATON_H
+#ifndef IDAUTOMATON_H
+#define IDAUTOMATON_H
 
 #include "Automaton.h"
 
@@ -14,4 +14,4 @@ public:
     void S0(const std::string& input);
 };
 
-#endif //PROJECT_1_IDAUTOMATON_H
+#endif

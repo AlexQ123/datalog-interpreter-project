@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_DATABASE_H
-#define PROJECT_1_DATABASE_H
+#ifndef DATABASE_H
+#define DATABASE_H
 
 #include "Relation.h"
 #include <map>
@@ -17,4 +17,4 @@ public:
     std::map<std::string, Relation*> getTables();
 };
 
-#endif //PROJECT_1_DATABASE_H
+#endif

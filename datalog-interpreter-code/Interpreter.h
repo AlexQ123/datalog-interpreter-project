@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_INTERPRETER_H
-#define PROJECT_1_INTERPRETER_H
+#ifndef INTERPRETER_H
+#define INTERPRETER_H
 
 #include "DatalogProgram.h"
 #include "Database.h"
@@ -18,4 +18,4 @@ public:
     std::string Interpret();
 };
 
-#endif //PROJECT_1_INTERPRETER_H
+#endif

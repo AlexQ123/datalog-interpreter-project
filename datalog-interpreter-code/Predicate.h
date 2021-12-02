@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_PREDICATE_H
-#define PROJECT_1_PREDICATE_H
+#ifndef PREDICATE_H
+#define PREDICATE_H
 #include "Parameter.h"
 #include <vector>
 
@@ -19,4 +19,4 @@ public:
     std::string getName();
 };
 
-#endif //PROJECT_1_PREDICATE_H
+#endif

@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_DATALOGPROGRAM_H
-#define PROJECT_1_DATALOGPROGRAM_H
+#ifndef DATALOGPROGRAM_H
+#define DATALOGPROGRAM_H
 #include "Predicate.h"
 #include "Rules.h"
 #include <set>
@@ -25,4 +25,4 @@ public:
     std::vector<Rules*> getRules();
 };
 
-#endif //PROJECT_1_DATALOGPROGRAM_H
+#endif

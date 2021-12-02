@@ -38,5 +38,5 @@ public:
     std::string getDescription();
 };
 
-#endif // TOKEN_H
+#endif
 

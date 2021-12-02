@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_RELATION_H
-#define PROJECT_1_RELATION_H
+#ifndef RELATION_H
+#define RELATION_H
 
 #include "Tuple.h"
 #include "Header.h"
@@ -33,4 +33,4 @@ public:
     std::string getName();
 };
 
-#endif //PROJECT_1_RELATION_H
+#endif

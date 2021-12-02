@@ -57,297 +57,297 @@ include CMakeFiles/project_1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project_1.dir/flags.make
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o: ../Project1_Starter_Code/Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o: ../datalog-interpreter-code/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Lexer.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Lexer.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Lexer.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Lexer.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o: ../Project1_Starter_Code/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o: ../datalog-interpreter-code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/main.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/main.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/main.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/main.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o: ../Project1_Starter_Code/Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o: ../datalog-interpreter-code/Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Token.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Token.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Token.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Token.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o: ../Project1_Starter_Code/MatcherAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/MatcherAutomaton.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o: ../datalog-interpreter-code/MatcherAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/MatcherAutomaton.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/MatcherAutomaton.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/MatcherAutomaton.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/MatcherAutomaton.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/MatcherAutomaton.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o: ../Project1_Starter_Code/IDAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o: ../datalog-interpreter-code/IDAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/IDAutomaton.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/IDAutomaton.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/IDAutomaton.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/IDAutomaton.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o: ../Project1_Starter_Code/StringAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/StringAutomaton.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o: ../datalog-interpreter-code/StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/StringAutomaton.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/StringAutomaton.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/StringAutomaton.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/StringAutomaton.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/StringAutomaton.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o: ../Project1_Starter_Code/BlockComment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o: ../datalog-interpreter-code/BlockComment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/BlockComment.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/BlockComment.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/BlockComment.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/BlockComment.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o: ../Project1_Starter_Code/LineComment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/LineComment.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o: ../datalog-interpreter-code/LineComment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/LineComment.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/LineComment.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/LineComment.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/LineComment.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/LineComment.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o: ../Project1_Starter_Code/Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o: ../datalog-interpreter-code/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parser.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parser.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parser.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parser.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o: ../Project1_Starter_Code/Parameter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o: ../datalog-interpreter-code/Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parameter.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parameter.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Parameter.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Parameter.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o: ../Project1_Starter_Code/Predicate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o: ../datalog-interpreter-code/Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Predicate.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Predicate.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Predicate.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Predicate.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o: ../Project1_Starter_Code/Rules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Rules.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o: ../datalog-interpreter-code/Rules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Rules.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Rules.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Rules.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Rules.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Rules.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o: ../Project1_Starter_Code/DatalogProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o: ../datalog-interpreter-code/DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/DatalogProgram.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/DatalogProgram.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/DatalogProgram.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o: ../Project1_Starter_Code/Tuple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o: ../datalog-interpreter-code/Tuple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Tuple.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Tuple.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Tuple.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Tuple.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o: ../Project1_Starter_Code/Header.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o: ../datalog-interpreter-code/Header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Header.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Header.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Header.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o: ../Project1_Starter_Code/Relation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o: ../datalog-interpreter-code/Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Relation.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Relation.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Relation.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Relation.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o: ../Project1_Starter_Code/Database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o: ../datalog-interpreter-code/Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Database.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Database.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Database.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Database.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o: ../Project1_Starter_Code/Interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o: ../datalog-interpreter-code/Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Interpreter.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Interpreter.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Interpreter.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Interpreter.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.s
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o: CMakeFiles/project_1.dir/flags.make
-CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o: ../Project1_Starter_Code/Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Graph.cpp
+CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o: CMakeFiles/project_1.dir/flags.make
+CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o: ../datalog-interpreter-code/Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o -c /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Graph.cpp
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Graph.cpp > CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.i
+CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Graph.cpp > CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.i
 
-CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Graph.cpp -o CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.s
+CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code/Graph.cpp -o CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.s
 
 # Object files for target project_1
 project_1_OBJECTS = \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o" \
-"CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o"
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o" \
+"CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o"
 
 # External object files for target project_1
 project_1_EXTERNAL_OBJECTS =
 
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Lexer.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/main.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Token.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/MatcherAutomaton.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/IDAutomaton.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/StringAutomaton.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/BlockComment.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/LineComment.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Parser.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Parameter.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Predicate.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Rules.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Tuple.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Header.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Relation.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Database.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Interpreter.cpp.o
-project_1: CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Lexer.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/main.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Token.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/MatcherAutomaton.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/IDAutomaton.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/StringAutomaton.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/BlockComment.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/LineComment.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Parser.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Parameter.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Predicate.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Rules.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/DatalogProgram.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Tuple.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Header.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Relation.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Database.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Interpreter.cpp.o
+project_1: CMakeFiles/project_1.dir/datalog-interpreter-code/Graph.cpp.o
 project_1: CMakeFiles/project_1.dir/build.make
 project_1: CMakeFiles/project_1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/a/alexqian/CS236/datalog-interpreter-project/cmake-build-debug-alexq/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable project_1"

@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_HEADER_H
-#define PROJECT_1_HEADER_H
+#ifndef HEADER_H
+#define HEADER_H
 
 #include <vector>
 #include <string>
@@ -16,4 +16,4 @@ public:
     std::vector<std::string> getAttributes();
 };
 
-#endif //PROJECT_1_HEADER_H
+#endif

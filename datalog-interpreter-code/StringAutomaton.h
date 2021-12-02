@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_STRINGAUTOMATON_H
-#define PROJECT_1_STRINGAUTOMATON_H
+#ifndef STRINGAUTOMATON_H
+#define STRINGAUTOMATON_H
 
 #include "Automaton.h"
 
@@ -15,4 +15,4 @@ public:
     void S0(const std::string& input);
 };
 
-#endif //PROJECT_1_STRINGAUTOMATON_H
+#endif

@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_PARAMETER_H
-#define PROJECT_1_PARAMETER_H
+#ifndef PARAMETER_H
+#define PARAMETER_H
 #include "Token.h"
 
 class Parameter
@@ -14,4 +14,4 @@ public:
     std::string toString();
 };
 
-#endif //PROJECT_1_PARAMETER_H
+#endif

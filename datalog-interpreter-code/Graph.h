@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_GRAPH_H
-#define PROJECT_1_GRAPH_H
+#ifndef GRAPH_H
+#define GRAPH_H
 
 #include "Rules.h"
 #include <map>
@@ -32,4 +32,4 @@ public:
     std::vector<std::vector<int>> getForest();
 };
 
-#endif //PROJECT_1_GRAPH_H
+#endif

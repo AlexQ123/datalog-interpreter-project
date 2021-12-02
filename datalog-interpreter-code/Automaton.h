@@ -42,5 +42,5 @@ public:
     int NewLinesRead() const { return newLines; }
 };
 
-#endif // AUTOMATON_H
+#endif
 

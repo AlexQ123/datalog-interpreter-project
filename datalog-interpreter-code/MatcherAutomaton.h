@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_MATCHERAUTOMATON_H
-#define PROJECT_1_MATCHERAUTOMATON_H
+#ifndef MATCHERAUTOMATON_H
+#define MATCHERAUTOMATON_H
 
 #include "Automaton.h"
 
@@ -15,4 +15,4 @@ public:
 
 };
 
-#endif //PROJECT_1_MATCHERAUTOMATON_H
+#endif

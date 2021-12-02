@@ -1,5 +1,5 @@
-#ifndef PROJECT_1_TUPLE_H
-#define PROJECT_1_TUPLE_H
+#ifndef TUPLE_H
+#define TUPLE_H
 
 #include <vector>
 #include <string>
@@ -19,4 +19,4 @@ public:
     }
 };
 
-#endif //PROJECT_1_TUPLE_H
+#endif

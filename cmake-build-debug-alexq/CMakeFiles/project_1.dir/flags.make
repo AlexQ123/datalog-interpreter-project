@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code 
+CXX_INCLUDES = -I/users/guest/a/alexqian/CS236/datalog-interpreter-project/datalog-interpreter-code 
 

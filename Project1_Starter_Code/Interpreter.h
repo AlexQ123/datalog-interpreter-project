@@ -3,6 +3,7 @@
 
 #include "DatalogProgram.h"
 #include "Database.h"
+#include "Graph.h"
 
 class Interpreter
 {

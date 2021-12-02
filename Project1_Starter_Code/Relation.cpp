@@ -182,6 +182,8 @@ Tuple Relation::combineTuples(Tuple t1, Tuple t2, const std::vector<int>& t2Indi
     return newTuple;
 }
 
+/*unionRelations unions two relations, returning true if new tuples were added during the union.
+ it also keeps track of each unique relation added, and outputs them.*/
 bool Relation::unionRelations(Relation r) {
     bool added = false;
     std::set<Tuple>::iterator it;

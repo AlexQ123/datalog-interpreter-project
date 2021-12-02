@@ -204,6 +204,33 @@ Project1_Starter_Code/DatalogProgram.cpp.s:
 	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/DatalogProgram.cpp.s
 .PHONY : Project1_Starter_Code/DatalogProgram.cpp.s
 
+Project1_Starter_Code/Graph.o: Project1_Starter_Code/Graph.cpp.o
+
+.PHONY : Project1_Starter_Code/Graph.o
+
+# target to build an object file
+Project1_Starter_Code/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.o
+.PHONY : Project1_Starter_Code/Graph.cpp.o
+
+Project1_Starter_Code/Graph.i: Project1_Starter_Code/Graph.cpp.i
+
+.PHONY : Project1_Starter_Code/Graph.i
+
+# target to preprocess a source file
+Project1_Starter_Code/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.i
+.PHONY : Project1_Starter_Code/Graph.cpp.i
+
+Project1_Starter_Code/Graph.s: Project1_Starter_Code/Graph.cpp.s
+
+.PHONY : Project1_Starter_Code/Graph.s
+
+# target to generate assembly for a file
+Project1_Starter_Code/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/project_1.dir/build.make CMakeFiles/project_1.dir/Project1_Starter_Code/Graph.cpp.s
+.PHONY : Project1_Starter_Code/Graph.cpp.s
+
 Project1_Starter_Code/Header.o: Project1_Starter_Code/Header.cpp.o
 
 .PHONY : Project1_Starter_Code/Header.o
@@ -627,6 +654,9 @@ help:
 	@echo "... Project1_Starter_Code/DatalogProgram.o"
 	@echo "... Project1_Starter_Code/DatalogProgram.i"
 	@echo "... Project1_Starter_Code/DatalogProgram.s"
+	@echo "... Project1_Starter_Code/Graph.o"
+	@echo "... Project1_Starter_Code/Graph.i"
+	@echo "... Project1_Starter_Code/Graph.s"
 	@echo "... Project1_Starter_Code/Header.o"
 	@echo "... Project1_Starter_Code/Header.i"
 	@echo "... Project1_Starter_Code/Header.s"

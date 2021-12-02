@@ -105,6 +105,12 @@
 		<Unit filename="/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/DatalogProgram.h">
 			<Option target="project_1"/>
 		</Unit>
+		<Unit filename="/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Graph.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Graph.h">
+			<Option target="project_1"/>
+		</Unit>
 		<Unit filename="/users/guest/a/alexqian/CS236/datalog-interpreter-project/Project1_Starter_Code/Header.cpp">
 			<Option target="project_1"/>
 		</Unit>
